@@ -1,0 +1,15 @@
+{
+  "name": "uxagustina2020",
+  "version": "1.0.0",
+  "description": "Portfolio/Site of Agustina Feijoo",
+  "main": "index.js",
+  "author": "Agustina Feijoo",
+  "license": "Proprietary",
+  "private": true,
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "scripts": {
+    "start": "eleventy --watch --serve"
+  }
+}
