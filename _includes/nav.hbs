@@ -1,0 +1,81 @@
+<nav class="main-nav" id="navbar">
+  <div class="main-nav_container">
+    <div class="main-nav_brand">
+      <img src="./images/agustina-feijoo-headshot.png" alt="Agustina Feijoo headshot">
+      <span class="h5">Tina Feijoo</span>
+    </div>
+
+    <ul>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#writing">Writing</a>
+      </li>
+      <li>
+        <a href="#recommendations">Recommendations</a>
+      </li>
+    </ul>
+
+    <a href="mailto:uxagustina@gmail.com?subject=Contact from website" class="button-primary">Let's talk</a>
+  </div>
+</nav>
+
+<style>
+
+  .main-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: top 0.3s;
+  border-bottom: 0.0625rem solid var(--color-dark-grey);
+  background-color: var(--color-white);
+  z-index: 1;
+  }
+
+  .main-nav_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: 1.56rem;
+  }
+
+  .main-nav ul {
+    display: inline-block;
+  }
+
+  .main-nav li a {
+    color: var(--color-black);
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  .main-nav li a:hover{
+    border-color: var(--color-accent);
+  }
+
+  .main-nav_brand {
+    display: inline-block;
+    margin-right: 3rem;
+  }
+
+  .main-nav_brand img {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+
+  .main-nav .button-primary {
+    margin-left: auto;
+  }
+  </style>

@@ -1,0 +1,202 @@
+/**
+    General
+*/
+
+
+:root {
+  --color-white:#fff;
+  --color-light-grey: #FBFBFC;
+  --color-dark-grey: #E7E7E7;
+  --color-black: #0A090C;
+  --color-accent: #5488f0;
+  --color-linkedin: #0077B5;
+  --color-medium: #03a87c;
+  --color-dribbble: #ea4c89;
+  --color-producthunt: #da552f;
+  --color-animator: #EF33F8;
+  --color-github: #171515;
+  --color-twitter: #38A1F3;
+  --transition-writing-item: 0.2s ease-in-out;
+  --nav-height: 4.37rem;
+}
+
+.divider {
+  position: relative;
+  display: flex;
+}
+
+.divider::before {
+  content: "";
+  width: 200vw;
+  left: 0;
+  position: absolute;
+  height: 1px;
+  background-color: var(--color-dark-grey);
+  bottom: 0;
+  z-index: -1;
+}
+
+.divider--with-decoration::after {
+  content: "";
+  height: 1px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: var(--color-black);
+}
+
+
+.divider--with-decoration::before {
+  width: 100%;
+  left: 0;
+}
+
+.divider--top::before {
+  top: 0;
+}
+
+
+/**
+    Typography
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.75rem;
+  margin: 0 auto; 
+  color: var(--color-black);
+  max-width: 1300px;
+}
+
+strong, .bold {
+  font-weight: 700;
+}
+
+.h1, h1, .h2, h2, .h5, h5 {
+  font-weight: 800;
+}
+
+.h3, h3, .h4, h4 {
+  font-weight: 400;
+}
+
+.h1, h1 {
+  font-size: 2.81rem;
+}
+
+.h2, h2 {
+  font-size: 2.25rem;
+}
+
+.h3, h3 {
+  font-size: 2rem;
+}
+
+.h4, h4 {
+  font-size: 1.31rem;
+  text-transform: uppercase;
+}
+
+.h5, h5 {
+  font-size: 1.125rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/**
+    Links and buttons
+*/
+
+.link, a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+  border-bottom: 0.0625rem solid transparent;
+  font-weight: 700;
+}
+
+.link:hover, a:hover {
+  border-bottom: 0.0625rem solid currentColor;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+.button-primary {
+  font-weight: 700;
+  padding: 0.6rem 2.5rem;
+  border: 0.0625rem solid currentColor;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.button-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.social-icons_item {
+  display: inline-block;
+  margin: 0 1.87rem 0 -0.5rem;
+  padding: 0 5px 1.37rem;
+}
+
+.social-icons_item a {
+  border-bottom: none;
+}
+
+.linkedin:hover {
+  border-color: var(--color-linkedin);
+}
+
+.medium:hover {
+  border-color: var(--color-medium);
+}
+
+.dribbble:hover {
+  border-color: var(--color-dribbble);
+}
+
+.ph:hover {
+  border-color: var(--color-producthunt);
+}
+
+.animator:hover {
+  border-color: var(--color-animator);
+}
+
+.github:hover {
+  border-color: var(--color-github);
+}
+
+.twitter:hover {
+  border-color: var(--color-twitter);
+}
+
+.resume:hover, .email:hover{
+  border-color: var(--color-accent);
+}
+
+.link-chevron {
+  width: 0.5rem;
+  margin-left: 0.8rem;
+  vertical-align: middle;
+}
+
+.link--highlighted {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+

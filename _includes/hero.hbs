@@ -1,0 +1,46 @@
+<div class="divider hero-component">
+  <div class="hero-component_leftbox">
+    <h1 class="hero-component_title-spacing">Hey, I'm Tina!</h1>
+    <p class="hero-component_title-spacing">
+      I’m a <strong>UX Designer</strong> with <strong>6+ years</strong> of professional experience, with a background in Graphic Design. I strive to create intuitive interfaces from data-informed decisions.
+    </p>
+
+    <ul>
+      {{#each siteData.contact}}
+        {{#if this.showOnHero}}
+          <li class="social-icons_item link {{this.id}}">
+            <a href="{{this.link}}">
+              <img src="./images/icon-{{this.id}}.svg" alt="{{this.name}} logo" title="{{this.name}}">
+            </a>
+          </li>
+        {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+  <img src="./images/hero-image.jpg" alt="Agustina Feijoo in the Cliffs of Moher">
+</div>
+
+<style>
+.hero-component {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--nav-height);
+}
+
+.hero-component_title-spacing {
+  margin-bottom: 3.12rem;
+}
+
+.hero-component_leftbox {
+  max-width: 530px;
+  padding: 6.87rem 5.6rem 8.43rem 0;
+}
+
+.hero-component_rightbox {
+  position: relative;
+}
+
+.hero-component img {
+  align-self: center;
+}
+</style>

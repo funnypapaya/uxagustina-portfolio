@@ -1,0 +1,137 @@
+<div id="projects" class="projects-component">
+  <h2 class="projects-component_title ">Projects</h2>
+
+  <div>
+    {{#each siteData.works}}
+    <div class="projects-component_wrapper projects-component--flex">
+      <div>
+        <div class="projects-component_intro">
+          <h4>{{this.category}}</h4>
+          <p>{{this.description}}</p>
+        </div>
+        <div class="projects-component_item_img projects-component_item_img--square">
+          {{>single-project cta=this.cta project=this.projects.[0]}}
+        </div>
+      </div>
+      <div class="projects-component--flex-column">
+        <div class="projects-component_item_img projects-component_item_img--rect">
+          {{>single-project cta=this.cta project=this.projects.[1]}}
+        </div>
+        <div class="projects-component--flex">
+          <div class="projects-component_item_img projects-component_item_img--square-sm">
+            {{>single-project cta=this.cta project=this.projects.[2]}}
+          </div>
+          <div class="projects-component_item_img projects-component_item_img--square-sm">
+            {{>single-project cta=this.cta project=this.projects.[3]}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+{{> divider}}
+
+<style>
+  .projects-component {
+    padding-top: 10rem;
+  }
+
+  .projects-component_wrapper {
+    margin: 5rem 0 10rem 0;
+  }
+
+  .projects-component_title {
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  .projects-component_intro {
+    text-align: center;
+    max-width: 23.12rem;
+    margin: 0 auto 2rem auto;
+  }
+
+  .projects-component_intro h4 {
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .projects-component_intro p {
+    margin-bottom: 0;
+  }
+
+  .projects-component_intro h4::before {
+    content: "";
+    width: 2rem;
+    height: 2px;
+    background-color: var(--color-accent);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .projects-component--flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .projects-component--flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .projects-component_item_img img, .projects-component_item_img video {
+    border-radius: 0.5rem;
+  }
+
+  .projects-component_item_img--square img, .projects-component_item_img--square video {
+    max-width: 32.6rem;
+  }
+
+  .projects-component_item_img--rect img, .projects-component_item_img--rect video {
+    max-width: 46.3rem;
+  }
+
+  .projects-component_item_img--square-sm img, .projects-component_item_img--square-sm video {
+    max-width: 22.1rem;
+  }
+
+  {{!-- Project item hover  --}}
+  .projects-component_item {
+    position: relative;
+  }
+
+  .projects-component_item img {
+    align-self: center;
+  }
+
+  .projects-component_item:hover .projects_component_details {
+    opacity: 1;
+    transition: opacity 300ms ease;
+  }
+
+  .projects_component_details {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-image: linear-gradient(132deg, #FBFBFC 0%, #EFEFEF 100%);
+    border: 0.125rem solid var(--color-white);
+    box-shadow: 30px 30px 60px 0 rgba(142,142,142,0.28);
+    padding: 3rem;
+    border-radius: 0.5rem;
+  }
+
+  .projects_component_details h5 {
+    margin-top: 0;
+  }
+
+  
+</style>

@@ -1,0 +1,35 @@
+<footer class="divider divider--top footer-component">
+  <p>© 2017 - 2020 Agustina Feijóo</p>
+  <div style="margin-left:auto;">
+    <ul style="margin: 0;">
+      {{#each siteData.contact}}
+        <li class="social-icons_item social-icons_item--top link {{this.id}}">
+          <a href="{{this.link}}">
+            <img src="./images/icon-{{this.id}}.svg" alt="{{this.name}} logo" title="{{this.name}}">
+          </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</footer>
+
+<style>
+  .footer-component {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-icons_item--top {
+    border-bottom: none;
+    padding-top: 25px;
+    border-top: 0.0625rem solid transparent;
+    margin: 0 -0.5rem 0 1.87rem;
+  }
+
+  .social-icons_item--top:hover {
+    border-bottom: none;
+    transition: border-top 0.2s ease-in-out;
+  }
+
+
+</style>

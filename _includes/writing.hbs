@@ -1,0 +1,102 @@
+<div id="writing" style="padding-top: 8rem;">
+  <h2 class="writing-component_title">Writing</h2>
+
+  <div class="writing-component">
+    {{#each siteData.writing}}
+    <div class="writing-component_section">
+      <h4 style="margin-bottom: 3rem;">{{this.section}}</h4>
+
+      {{#each this.posts}}
+        <div class="writing-component_item">
+          <a href="{{this.link}}" target="_blank">
+            <img src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image">
+            {{#if this.logo}}
+              <img src="{{this.logo}}" class="writing-component_logo">
+            {{/if}}
+            <div class="writing-component_item_copy">
+              <h5>{{this.title}}</h5>
+              <p>{{this.excerpt}}</p>
+            </a>
+          </div>
+        </div>
+      {{/each}}
+
+        <a href="{{this.link}}" class="link--highlighted writing-component_see-more-articles">See more {{this.section}} articles</a><img src="./images/chevron.svg" class="link-chevron">
+      
+    </div>
+    {{/each}}
+  </divclass="writing-component">
+</div>
+
+{{> divider}}
+
+<style>
+  .writing-component {
+    display: flex;
+    margin-bottom: 10rem;
+    justify-content: space-between;
+  }
+
+  .writing-component_title {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .writing-component_section {
+    max-width: 34.4rem;
+  }
+
+  .writing-component_item {
+    display: flex;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .writing-component_item:hover {
+    transform: translateX(2rem);
+    transition: transform var(--transition-writing-item);
+  }
+
+  .writing-component_item img {
+    align-self: center;
+  }
+
+  .writing-component_item_copy {
+    max-width: 40rem;
+  }
+
+  .writing-component_item_copy p {
+    font-weight: 400;
+  }
+
+  .writing-component_item p, .writing-component_item h5 {
+    margin: 0;
+  }
+
+  .writing-component_item a {
+    color: var(--color-black);
+  }
+
+  .writing-component_item a:hover {
+    border-bottom: none;
+  }
+
+  .writing-component_post-image {
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+    max-width: 6.25rem;
+  }
+
+  .writing-component_logo {
+    position: absolute;
+    left: 4.68rem;
+    top: 4.3rem;
+    border-radius: 50%;
+    max-width: 2.5rem;
+  }
+
+  .writing-component_see-more-articles {
+    display: inline-block;
+    margin-top: 3rem;
+  }
+</style>

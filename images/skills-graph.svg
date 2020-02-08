@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="707px" height="395px" viewBox="0 0 707 395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Skills graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-1">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-2">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-3">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-4">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-5">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-6">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-7">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.38777878e-14%" x2="50%" y2="93.2681552%" id="linearGradient-8">
+            <stop stop-color="#52B493" offset="0%"></stop>
+            <stop stop-color="#A2D6C5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-Large-Desktop/1440" transform="translate(-369.000000, -1728.000000)">
+            <g id="Skills-graph" transform="translate(369.500000, 1722.000000)">
+                <g id="Colored-rects" transform="translate(59.000000, 128.603030)">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="276.25" y="0" width="31" height="272"></rect>
+                    <rect id="Rectangle-Copy-3" fill="url(#linearGradient-2)" x="207.3125" y="0" width="31" height="144"></rect>
+                    <rect id="Rectangle-Copy-9" fill="url(#linearGradient-3)" x="552" y="0" width="31" height="64"></rect>
+                    <rect id="Rectangle-Copy-4" fill="url(#linearGradient-4)" x="138.375" y="0" width="31" height="96"></rect>
+                    <rect id="Rectangle-Copy-10" fill="url(#linearGradient-5)" x="483.0625" y="0" width="31" height="80"></rect>
+                    <rect id="Rectangle-Copy-7" fill="url(#linearGradient-3)" x="69.4375" y="0" width="31" height="64"></rect>
+                    <rect id="Rectangle-Copy-11" fill="url(#linearGradient-6)" x="414.125" y="0" width="31" height="128"></rect>
+                    <rect id="Rectangle-Copy-8" fill="url(#linearGradient-7)" x="0.5" y="0" width="31" height="48"></rect>
+                    <rect id="Rectangle-Copy-12" fill="url(#linearGradient-8)" x="345.1875" y="0" width="31" height="224"></rect>
+                </g>
+                <line x1="0.5" y1="128.5" x2="700.5" y2="128.5" id="Line-2" stroke="#A8A8A8" stroke-linecap="square"></line>
+                <text id="UX-Design" transform="translate(371.359650, 85.809398) rotate(-45.000000) translate(-371.359650, -85.809398) " font-family="Montserrat-Bold, Montserrat" font-size="14" font-weight="bold" fill="#0A090C">
+                    <tspan x="333.10465" y="90.8093975">UX Design</tspan>
+                </text>
+                <text id="UX-Research" transform="translate(446.714989, 81.213203) rotate(-45.000000) translate(-446.714989, -81.213203) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="402.187989" y="86.2132034">UX Research</tspan>
+                </text>
+                <text id="HTML-&amp;-CSS" transform="translate(238.741161, 82.627417) rotate(-45.000000) translate(-238.741161, -82.627417) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="196.230161" y="87.627417">HTML &amp; CSS</tspan>
+                </text>
+                <text id="Project-Management" transform="translate(329.455104, 60.000000) rotate(-45.000000) translate(-329.455104, -60.000000) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="254.520104" y="65">Project Management</tspan>
+                </text>
+                <text id="Illustration" transform="translate(509.500000, 86.162951) rotate(-45.000000) translate(-509.500000, -86.162951) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="471.854" y="91.1629509">Illustration</tspan>
+                </text>
+                <text id="Animation" transform="translate(580.040585, 86.516504) rotate(-45.000000) translate(-580.040585, -86.516504) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="542.989585" y="91.5165043">Animation</tspan>
+                </text>
+                <text id="Customer-support" transform="translate(119.500000, 67.424621) rotate(-45.000000) translate(-119.500000, -67.424621) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="55.142" y="72.4246212">Customer support</tspan>
+                </text>
+                <text id="Content-creation" transform="translate(661.711418, 70.606602) rotate(-45.000000) translate(-661.711418, -70.606602) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="602.106418" y="75.6066017">Content creation</tspan>
+                </text>
+                <text id="Quality-Assurance" transform="translate(185.990332, 68.131728) rotate(-45.000000) translate(-185.990332, -68.131728) " font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#0A090C">
+                    <tspan x="122.619332" y="73.131728">Quality Assurance</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

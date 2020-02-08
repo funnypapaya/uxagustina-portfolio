@@ -6,10 +6,14 @@
   <title>Agustina Feijóo - UX Designer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/index.css">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -17,13 +21,30 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <p>{{siteData.greeting}}</p>
+  {{> nav}}
+
+  {{> hero}}
+
+  {{> experience}}
+  
+  {{> projects}}
+
+  {{> writing}}
+
+  {{> recommendations}}
+
+  {{> cta}}
+
+  {{> footer}}
 
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
