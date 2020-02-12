@@ -28,7 +28,7 @@
 .divider::before {
   content: "";
   width: 200vw;
-  left: 0;
+  left: -100vw;
   position: absolute;
   height: 1px;
   background-color: var(--color-dark-grey);
@@ -74,6 +74,7 @@ body {
   margin: 0 auto; 
   color: var(--color-black);
   max-width: 1300px;
+  overflow-x: hidden;
 }
 
 strong, .bold {
@@ -200,3 +201,13 @@ ul {
 
 
 
+/**
+    Responsive
+*/
+
+@media screen and (max-width:1420px) {
+  .projects-component--flex {
+
+  }
+
+}

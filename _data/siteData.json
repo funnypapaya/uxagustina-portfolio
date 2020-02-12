@@ -33,30 +33,30 @@
     "works": [
         {
             "category": "UX Design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "description": "These projects are the result of teamwork, interdisciplinary collaboration, well-defined processes and validation. My contributions were always centered around UX.",
             "cta": "Read the Case Study",
             "projects": [
                 {
                     "title": "Activity tracking mobile app",
-                    "description": "I designed the overall structure and behavior of the <a href='https://www.indigoawards.com/winners/491' target='_blank'>award-winning</a> Level app, conducted moderated Usability Testing sessions to test our assumptions, and worked with the VSP team to define the look and feel.",
+                    "description": "We were three people collaborating on this project. I was the <strong>main point of contact</strong> with the client, working closely with them defining the goals for the project, managing any unexpected changes that happened along the way and acting as a liaison with the rest of my team. <strong>I was in charge of the UX Design</strong>, defining the overall structure and behavior of the <a href='https://www.indigoawards.com/winners/491' target='_blank'>award-winning</a> Level app. I also conducted <strong>remote moderated Usability Testing sessions</strong> to test our assumptions. Another designer handled the UI Design, and another the Animations.",
                     "link": "http://theuxdepartment.com/works/level/",
                     "image": "./images/projects/projects-ux1.jpg"
                 },
                 {
                     "title": "Graphic system for screen and print",
-                    "description": "I have worked with Vibrant America for several years, on multiple platforms and various print materials. The main focus is to keep the system cohesive to strengthen the credibility of the brand.",
+                    "description": "I worked with this client for several years, on many projects ranging from websites, to mobile apps and printed materials. The main challenge was keeping all their sub-brands coherent yet unique. My contributions varied according to the needs of the project. On different occasions I served as the <strong>Project Manager</strong>, I was in charge of <strong>UX Design</strong>, conducted moderated <strong>Usability Testing sessions</strong>, participated in the <strong>UI Design phase</strong>, and did <strong>QA</strong>.",
                     "link": "http://theuxdepartment.com/works/vibrant-america/",
                     "image": "./images/projects/projects-ux2.jpg"
                 },
                 {
                     "title": "Travel mobile app for iOS",
-                    "description": "My role was to define the IA and User Flows, to work closely with the Globespinning team to effectively portray their vision and business goals and to ensure the quality of the final outcome.",
+                    "description": "Three people team. I worked on the <strong>UX design phase</strong> alongside the Creative Director, <strong>defining the IA and IxD</strong>, while a teammate defined the visual styles (UI Design).",
                     "link": "http://theuxdepartment.com/works/globespinning/",
                     "image": "./images/projects/projects-ux3.jpg"
                 },
                 {
                     "title": "News curation web app",
-                    "description": "We were two designers working on the project. My main collaboration was the strategy definition and interaction design for the main feature of the Boost.ly app called the Ripple Gauge.",
+                    "description": "We were two designers working on the project. My main collaboration was <strong>leading the UX Design</strong> for the <strong>main feature</strong> of the Boost.ly app called <strong>the Ripple Gauge.</strong>",
                     "link": "http://theuxdepartment.com/works/boostly/",
                     "image": "./images/projects/projects-ux4.jpg"
                 }
@@ -64,61 +64,61 @@
         },
         {
             "category": "Visual Design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "description": "I selected these projects because I worked on them on my own and had 100% creative freedom to define all visual styles, as well as the overall structure and behavior.",
             "cta": "View project",
             "projects": [
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
-                    "link": "http://google.com",
+                    "title": "Visual identity and website design",
+                    "description": "At Haiku, I was tasked with <strong>redesigning the company’s marketing website</strong> for the re-brand of <a href='https://www.haikuforteams.com/animator/' target='_blank'>Animator</a>, Haiku’s first product. In this opportunity, I was given total <strong></strong>freedom to define the new visual identity</strong> for the company, including typography, color palette and overall visual style. I decided to use an <strong>ample palette</strong> that would give us leverage once the company started launching more products. For the Animator landing page (pictured here) I chose to use keyframes as <strong>custom product miscellanea</strong>, envisioning a similar yet unique treatment for all future products.",
+                    "link": "https://dribbble.com/shots/10064955-Product-landing-page",
                     "image": "./images/projects/visual1.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
-                    "link": "http://google.com",
+                    "title": "Personal blog",
+                    "description": "Before taking my blog posts to Medium, I designed my very own personal blog, including highlighted articles, filterable “book recommendations” and “useful tools” sections, and a tag-based archive for older posts. For this personal project I selected a <strong>condensed typography</strong> with a lot of personality, and a simple <strong>analogous color palette</strong> in warm tones. I also allotted an important amount of real estate to <strong>vivid and colorful imagery</strong> to accompany each blog post.",
+                    "link": "https://dribbble.com/shots/10064917-Personal-blog",
                     "image": "./images/projects/visual2.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
-                    "link": "http://google.com",
+                    "title": "Metronome app",
+                    "description": "For this <strong>passion project</strong>, the concept was to help people learn how to <strong>follow rhythms with a layer of gamification</strong>. I handled the <strong>UX/UI Design</strong> and a colleague the code.",
+                    "link": "https://dribbble.com/shots/4519615-Metronome-I",
                     "image": "./images/projects/visual3.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
-                    "link": "http://google.com",
+                    "title": "Demo app for Diez",
+                    "description": "I was asked to design a sample app that was <strong>simple yet had a lot of visual contrast</strong>, to show how <a href='https://diez.org/' target='_blank'>Diez</a> helps update your Design Language instantly and across codebases.",
+                    "link": "https://dribbble.com/shots/10065128-Demo-app-for-Diez",
                     "image": "./images/projects/visual4.jpg"
                 }
             ]
         },
         {
             "category": "Illustration",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "description": "In my spare time I like to paint on canvas, draw, and make digital illustrations. Realism is my style of choice, but I also enjoy dabbing in other techniques.",
             "cta": "See artwork",
             "projects": [
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
+                    "title": "Headshot illustration",
+                    "description": "I created this realistic digital illustration from a reference image of a model on <strong>iPad Pro + pencil on Procreate</strong>.",
                     "link": "https://dribbble.com/shots/5490915-Realistic-Illo",
                     "image": "./images/projects/illo1.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
+                    "title": "Detailed feature practice",
+                    "description": "This is a realistic illustration from a reference image created on <strong>Adobe Sketch for iPad Pro.</strong>",
                     "link": "https://dribbble.com/shots/4519604-Illustration-Lips",
                     "image": "./images/projects/illo2.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
+                    "title": "A trip to the moon",
+                    "description": "<strong>Anaglyph 3D illustration</strong> based on the original poster for the film <a href='https://www.goldposter.com/27820/' target='_blank'>A Trip to the Moon</a> (1902) by Georges Méliès, also featured in the film Hugo.",
                     "link": "https://dribbble.com/shots/5435080-Trip-To-The-Moon",
                     "image": "./images/projects/illo3.jpg"
                 },
                 {
-                    "title": "news curation web app",
-                    "description": "lorem ipsum dolor sit amet",
+                    "title": "Hello Dribbble!",
+                    "description": "When I received an invitation to join Dribbble I created this <strong>digital vector illustration</strong> to kickstart my participation in the community.",
                     "link": "https://dribbble.com/shots/5001844-Hello-Dribbble",
                     "image": "./images/projects/illo4.jpg"
                 }
@@ -126,30 +126,30 @@
         },
         {
             "category": "Animation",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+            "description": "During my time at Haiku I learned to add interactivity and animation to my illustrations, to create engaging pieces that communicate ideas and delight users.",
             "cta": "Play animation",
             "projects": [
                 {
                     "title": "Brandbook hero",
-                    "description": "lorem ipsum dolor sit amet",
+                    "description": "I was tasked to create a series of animated illustrations, one for each of the company products: Animator, Diez, Brandbook and Storybook for Teams. All of these are currently displayed on <a href='https://www.haikuforteams.com/' target='_blank'>Haiku’s homepage</a> and on each product landing page/website. <strong>Each animation was tailored to communicate what the product is for and how it works</strong>, in a nutshell. In this one, you can see there’s a dashboard containing your design tokens, which can be modified and those changes would automatically propagate across codebases.",
                     "link": "https://share.haiku.ai/u/Tina/BrandbookHero",
                     "video": "./images/projects/animation1.mp4"
                 },
                 {
                     "title": "Learn page hero",
-                    "description": "lorem ipsum dolor sit amet",
+                    "description": "Animator has a section dedicated to learning resources and tutorials, the <a href='https://www.haikuforteams.com/learn/' target='_blank'>Learn page</a>. I was tasked to create an <strong>animated Hero section</strong> that would somehow communicate the purpose of this page. I decided to illustrate a set of hands and have them draw different types of lines, each one animated using a <strong>variety of techniques and features available in the app</strong>, like Opacity, Scale and Stroke Dasharray and Dashoffset.",
                     "link": "https://share.haiku.ai/u/Tina/LearnPage",
                     "video": "./images/projects/animation2.mp4"
                 },
                 {
                     "title": "Email marketing coupon",
-                    "description": "lorem ipsum dolor sit amet",
+                    "description": "I created this animation to accompany an <strong>email marketing campaign</strong> offering two months free for <a href='https://www.haikuforteams.com/animator/' target='_blank'>Animator</a>, to celebrate the product’s re-brand.",
                     "link": "https://share.haiku.ai/u/Tina/CouponEnvelopeSingle",
                     "video": "./images/projects/animation3.mp4"
                 },
                 {
                     "title": "Animator error state",
-                    "description": "lorem ipsum dolor sit amet",
+                    "description": "I built a <strong>series of interactive animations</strong> to illustrate different user flows. This one is shown when the user hits an <strong>error state</strong> and is given instructions to safely continue.",
                     "link": "https://share.haiku.ai/u/Tina/HaikuError",
                     "video": "./images/projects/animation4.mp4"
                 }
@@ -163,33 +163,33 @@
             "posts": [
                 {
                     "title": "Comprehensive guide for color usage in web design",
-                    "excerpt": "There is a lot of material about color to be found online. But none of us has the time to search and...",
+                    "excerpt": "Covering color psychology, terminology, rules, applications in web design, and tools & resources.",
                     "image": "./images/writing/color-usage.jpg",
                     "logo": "./images/freecodecamp.png",
                     "link": "https://medium.com/free-code-camp/comprehensive-guide-for-color-usage-in-web-design-e2a9afce09fb"
                 },
                 {
                     "title": "User Research and Testing: How many users?",
-                    "excerpt": "As part of my work as a UX Designer at an agency, I built a User Research “best practices” document to...",
+                    "excerpt": "Summary of renowned authors' recommendations for popular UX Research techniques.",
                     "image": "./images/writing/howmanyusers.jpg",
                     "link": "https://medium.com/@agusfeijoo/user-research-and-testing-how-many-users-b2008f26dbd"
                 },
                 {
                     "title": "How Don Norman changed my perspective",
-                    "excerpt": "One afternoon, when I was first starting in my UX Design career, I faced a challenge in the agency...",
+                    "excerpt": "Understanding the impact design has on our every-day lives made me a more empathetic designer.",
                     "image": "./images/writing/donnorman.jpg",
                     "link": "https://medium.com/@agusfeijoo/how-don-norman-changed-my-perspective-9d35975658f2"
                 },
                 {
                     "title": "Comprehensive description of my design process",
-                    "excerpt": "I don’t know if it ever happened to you, but for me, it’s very common to take some things for granted...",
+                    "excerpt": "In-depth review of my approach to projects, including phases, techniques, tools and tips.",
                     "image": "./images/writing/design-process.jpg",
                     "logo": "./images/uxcollective.png",
                     "link": "https://uxdesign.cc/comprehensive-description-of-my-design-process-6c004f2970f8"
                 },
                 {
                     "title": "Working collaboratively in Sketch: Font management",
-                    "excerpt": "A few weeks ago, my team was working on a mobile app design project, and at some point, we...",
+                    "excerpt": "Quick step-by-step guide to sync Google Fonts on your computer using GitHub.",
                     "image": "./images/writing/font-management.jpg",
                     "link": "https://medium.com/@agusfeijoo/working-collaboratively-in-sketch-font-management-1e27e1d72d"
                 }
@@ -201,35 +201,35 @@
             "posts": [
                 {
                     "title": "Animating Elements Along Curved Paths",
-                    "excerpt": "In previous tutorials and other resources we've covered what Animator was built for...",
+                    "excerpt": "Brief tutorial describing how to make an element follow a curved trajectory using tweens.",
                     "image": "./images/writing/curved-paths.gif",
-                    "logo": "./images/haiku-logo.png",
-                    "link": "https://www.haikuforteams.com/blog/curved-paths/m"
+                    "logo": "./images/logo-haiku.jpg",
+                    "link": "https://www.haikuforteams.com/blog/curved-paths/"
                 },
                 {
                     "title": "Understanding Actions",
-                    "excerpt": "In this blog post we'll be taking a close look at Actions. We'll review the two different...",
+                    "excerpt": "Covering the difference between Frame Actions and Element Actions, and what each one can do.",
                     "image": "./images/writing/understanding-actions.jpg",
-                    "logo": "./images/haiku-logo.png",
+                    "logo": "./images/logo-haiku.jpg",
                     "link": "https://www.haikuforteams.com/blog/understanding-actions/"
                 },
                 {
                     "title": "What we learned from our first remote team summit",
-                    "excerpt": "As some of you know, Haiku is a growing start-up dedicated to creating products...",
+                    "excerpt": "The experience of our remote team meeting face-to-face for the first time in Patagonia.",
                     "image": "./images/writing/summit1.jpg",
-                    "logo": "./images/haiku-logo.png",
+                    "logo": "./images/logo-haiku.jpg",
                     "link": "https://www.haikuforteams.com/blog/remote-team-summit/"
                 },
                 {
-                    "title": "Our remote team co-located in Mexico City",
-                    "excerpt": "Last year at around this time we had our first company summit in beautiful... ",
+                    "title": "Our remote team co-located in Mexico City, and this is what happened",
+                    "excerpt": "Our team meets once again, a year later, this time in CDMX to get a product out the door.",
                     "image": "./images/writing/summit2.jpg",
-                    "logo": "./images/haiku-logo.png",
+                    "logo": "./images/logo-haiku.jpg",
                     "link": "https://www.haikuforteams.com/blog/mexico-city/"
                 },
                 {
                     "title": "Dissection of a UX team",
-                    "excerpt": "lThere are many ways to approach a design project, and of course, each approach...",
+                    "excerpt": "Description of the structure and workflow of the multi-disciplinary team at The UX Department. ",
                     "image": "./images/writing/dissection-team.jpg",
                     "logo": "./images/trymyui.jpg",
                     "link": "https://www.trymyui.com/blog/2015/07/15/dissection-of-a-ux-team/"
