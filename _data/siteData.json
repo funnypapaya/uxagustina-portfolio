@@ -239,20 +239,20 @@
     ],
     "recommendations": [
         {
-            "content": "I worked closely with Agustina for about two months on a major product redesign. She is a jack of all trades - insightful researcher, creative designer, efficient project manager, savvy technologist, and overall consummate professional. Before this project I thought I had to be co-located with a design firm to get a quality product. Agustina proved me very wrong! Her skill, flexibility, and professionalism made it a breeze.",
-            "photo": "./images/xander-mitman.jpeg",
-            "name": "Xander Mitman",
-            "jobTitle": "Director of Product Management",
-            "logo": "./images/4INFO.svg",
-            "company": "4INFO"
-        },
-        {
             "content": "I had the pleasure of being Agustina's client partner while designing an app for a new category of products - activity tracking smart glasses. She was a great resource for helping the team find a direction that was both user-friendly and functional. She was always willing to go out of her way to meet the team's expectations, while pushing back when necessary,and was very agile when unexpected directional changes occurred. Her testing methods were thorough and gave us confidence that we were shipping a product that people would love. Anyone would be lucky to have Agustina on their team.",
             "photo": "./images/kristi-gaudio.jpeg",
             "name": "Kristi Gaudio",
             "jobTitle": "UX Design Researcher and Strategist",
             "logo": "./images/vsp.svg",
             "company": "The Shop | VSP Global"
+        },
+        {
+            "content": "I worked closely with Agustina for about two months on a major product redesign. She is a jack of all trades - insightful researcher, creative designer, efficient project manager, savvy technologist, and overall consummate professional. Before this project I thought I had to be co-located with a design firm to get a quality product. Agustina proved me very wrong! Her skill, flexibility, and professionalism made it a breeze.",
+            "photo": "./images/xander-mitman.jpeg",
+            "name": "Xander Mitman",
+            "jobTitle": "Director of Product Management",
+            "logo": "./images/4INFO.svg",
+            "company": "4INFO"
         },
         {
             "content": "Agustina is an absolute joy to work with. Dedicated, passionate, a very creative problem-solver and excellent communicator. I very much enjoyed working with her, and she delivered a final product that was far beyond my wildest and most unreasonable expectations. I would not hesitate to hire or work with her in any capacity, and hope I have the opportunity again myself someday.",
@@ -274,15 +274,9 @@
     "contact": [
         {
             "name": "Resume",
-            "link": "./resume.pdf",
-            "showOnHero": false,
+            "link": "pdf/Agustina-Feijoo-resume.pdf",
+            "showOnHero": true,
             "id": "resume"
-        },
-        {
-            "name": "Email",
-            "link": "mailto:uxagustina@gmail.com?subject=Contact from website",
-            "id": "email",
-            "showOnHero": false
         },
         {
             "name": "LinkedIn",

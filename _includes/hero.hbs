@@ -17,7 +17,9 @@
       {{/each}}
     </ul>
   </div>
-  <img src="./images/hero-image.jpg" alt="Agustina Feijoo in the Cliffs of Moher">
+  <div class="hero-component_rightbox">
+    <img src="./images/hero-image.jpg" alt="Agustina Feijoo in the Cliffs of Moher">
+  </div>
 </div>
 
 <style>
@@ -37,10 +39,26 @@
 }
 
 .hero-component_rightbox {
-  position: relative;
+  align-self: center;
 }
 
 .hero-component img {
-  align-self: center;
+  max-width: 100%;
+  height: auto;
 }
+
+{{!-- Responsive --}}
+
+@media screen and (max-width:950px) {
+  .hero-component{
+    flex-direction: column-reverse;
+  }
+
+  .hero-component_leftbox {
+    padding: 2rem 0;
+    margin: 0 auto;
+  }
+}
+
+
 </style>

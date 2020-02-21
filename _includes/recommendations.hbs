@@ -11,12 +11,16 @@
         <div class="swiper-slide">
           <p>{{this.content}}</p>
           <div class="swiper-slide_credentials">
-            <img src="{{this.photo}}" alt="{{this.name}}" class="swiper-slide_credentials_photo">
-            <div class="swiper-slide_credentials_divider">
-              <h5>{{this.name}}</h5>
-              <p>{{this.jobTitle}}</p>
+            <div class="swiper-slide_credentials_personal-data">
+              <img src="{{this.photo}}" alt="{{this.name}}" class="swiper-slide_credentials_photo">
+              <div class="swiper-slide_credentials_divider">
+                <h5>{{this.name}}</h5>
+                <p>{{this.jobTitle}}</p>
+              </div>
             </div>
-            <img src="{{this.logo}}" alt="{{this.company}}">
+            <div class="swiper-slide_credentials">
+              <img src="{{this.logo}}" alt="{{this.company}}">
+            </div>
           </div>
         </div>
         {{/each}}
@@ -39,13 +43,9 @@
   .recommendations-component_title {
     text-align: center;
   }
-  .swiper-container {
-    width: 1300px;
-    height: 500px;
-  }
 
   .swiper-slide {
-    padding: 5rem 14rem 0 14rem;
+    padding: 5rem 14rem;
     line-height: 2.1rem;
   }
 
@@ -73,6 +73,10 @@
     margin: 0 2rem;
   }
 
+  .swiper-slide_credentials_personal-data {
+    display: flex;
+  }
+
   .swiper-slide_credentials_photo {
     border-radius: 50%;
     max-width: 3.75rem;
@@ -95,6 +99,70 @@
   .recommendations-component_more-link {
     text-align: center;
     margin: 0;
+  }
+
+  {{!-- Responsive --}}
+  @media screen and (max-width:1170px) {
+    .swiper-slide {
+      padding: 5rem 6rem;
+    }
+  }
+
+  @media screen and (max-width:950px) {
+    .swiper-button-prev,.swiper-button-next {
+      display: none;
+    }
+
+    .swiper-slide {
+      padding: 2rem 0 5rem 0;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .recommendations-component {
+      margin-bottom: 4rem;
+      padding-top: 4rem;
+    }
+
+    .swiper-slide_credentials_divider {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    .swiper-slide_credentials_divider p, .swiper-slide_credentials_divider h5 {
+      text-align: center;
+    }
+
+    .swiper-slide_credentials {
+      padding-bottom: 2rem;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .swiper-slide_credentials_personal-data {
+      border-bottom: 0.125rem solid var(--color-dark-grey);
+      margin: 2rem auto;
+      display: inline-block;
+    }
+
+    .swiper-slide p {
+      margin-bottom: 2rem;
+    }
+
+    .swiper-slide {
+      padding: 2rem 0;
+    }
+  }
+
+
+  @media screen and (max-width:430px) {
+    .swiper-slide_credentials_divider {
+      margin-right: 1rem;
+    }
+
+    .recommendations-component_title {
+      font-size: 2rem;
+    }
   }
 </style>
 

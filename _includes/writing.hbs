@@ -1,7 +1,7 @@
-<div id="writing" style="padding-top: 8rem;">
+<div id="writing" class="writing-component">
   <h2 class="writing-component_title">Writing</h2>
 
-  <div class="writing-component">
+  <div class="writing-component_content">
     {{#each siteData.writing}}
     <div class="writing-component_section">
       <h4 style="margin-bottom: 3rem;">{{this.section}}</h4>
@@ -9,29 +9,35 @@
       {{#each this.posts}}
         <div class="writing-component_item">
           <a href="{{this.link}}" target="_blank">
-            <img src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image">
-            {{#if this.logo}}
-              <img src="{{this.logo}}" class="writing-component_logo">
-            {{/if}}
+            <div>
+              <img src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image">
+              {{#if this.logo}}
+                <img src="{{this.logo}}" class="writing-component_logo">
+              {{/if}}
+            </div>
             <div class="writing-component_item_copy">
               <h5>{{this.title}}</h5>
               <p>{{this.excerpt}}</p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       {{/each}}
 
-        <a href="{{this.link}}" class="link--highlighted writing-component_see-more-articles" target="_blank">See more {{this.section}} articles</a><img src="./images/chevron.svg" class="link-chevron">
+      <a href="{{this.link}}" class="link--highlighted writing-component_see-more-articles" target="_blank">See more {{this.section}} articles</a><img src="./images/chevron.svg" class="link-chevron">
       
     </div>
     {{/each}}
-  </divclass="writing-component">
+  </div>
 </div>
 
 {{> divider}}
 
 <style>
   .writing-component {
+    padding-top: 8rem;
+  }
+
+  .writing-component_content {
     display: flex;
     margin-bottom: 10rem;
     justify-content: space-between;
@@ -75,6 +81,7 @@
 
   .writing-component_item a {
     color: var(--color-black);
+    display: flex;
   }
 
   .writing-component_item a:hover {
@@ -96,7 +103,57 @@
   }
 
   .writing-component_see-more-articles {
-    display: inline-block;
+    display: inline;
     margin-top: 3rem;
+  }
+
+  {{!-- Responsive --}}
+  @media screen and (max-width:1250px) {
+    .writing-component_item {
+      margin-right: 2rem;
+      height: 160px;
+    }
+
+    .writing-component_item:hover {
+    transform: none;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .writing-component_content {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .writing-component_section {
+      margin-bottom: 6rem;
+      max-width: 100%;
+    }
+
+    .writing-component_title {
+      text-align: left;
+    }
+
+    .writing-component_item {
+      margin-right: 0;
+      height: auto;
+    }
+
+    .writing-component {
+      padding-top: 5rem;
+    }
+  }
+
+  @media screen and (max-width:450px) {
+    .writing-component_post-image {
+      width: 4.37rem;
+      margin-right: 1rem;
+    }
+
+    .writing-component_logo {
+      left: 3rem;
+      top: 3rem;
+      width: 1.87rem;
+    }
   }
 </style>

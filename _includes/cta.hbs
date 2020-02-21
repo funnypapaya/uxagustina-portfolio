@@ -1,8 +1,9 @@
 <div>
   <div class="cta-component_bg">
     <div class="cta-component">
-      <img src="./images/uxagustina-illo.png" alt="Illustration picturing a Agustina Feijoo working in her office.">
-
+      <div class="cta-component_illo">
+        <img src="./images/uxagustina-illo.png" alt="Illustration picturing a Agustina Feijoo working in her office.">
+      </div>
       <div class="cta-component_copy">
         <h2>Let's talk</h2>
         <p>I always love hearing from other professionals, if you want to connect or talk about work, I’m always a message away!</p>
@@ -17,12 +18,8 @@
     background-color: var(--color-light-grey);
     border-radius: 0.5rem;
     padding: 3rem 10rem;
-    position: relative;
-    bottom: 70;
-    width: 100vw;
-    max-width: 93.75rem;
-    margin-left: -100px;
     margin-bottom: 6rem;
+    width: 100%;
   }
 
   .cta-component {
@@ -30,8 +27,15 @@
     justify-content: space-around;
   }
 
+  .cta-component_illo {
+    padding-right: 3rem;
+  }
+
   .cta-component img {
     max-width: 18.5rem;
+    align-self: center;
+    width: 100%;
+    height: auto;
   }
 
   .cta-component_copy {
@@ -40,5 +44,42 @@
 
   .cta-component_copy p {
     margin-bottom: 4rem;
+  }
+
+  {{!-- Responsive --}}
+
+  @media screen and (max-width:1400px) {
+    .cta-component_bg {
+      padding: 3rem 5rem;
+   }
+  }
+
+  @media screen and (max-width:1300px) {
+   .cta-component_copy {
+     max-width: 30rem;
+  }
+
+  @media screen and (max-width:1000px) {
+    .cta-component_bg {
+      padding: 3rem 2rem;
+   }
+
+    .cta-component_illo {
+      align-self: center;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .cta-component {
+      flex-direction: column;
+    }
+
+    .cta-component_copy {
+      text-align: center;
+    }
+
+    .cta-component_illo {
+      padding: 0;
+    }
   }
 </style>

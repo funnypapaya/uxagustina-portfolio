@@ -1,6 +1,6 @@
 <footer class="divider divider--top footer-component">
   <p>© 2017 - 2020 Agustina Feijóo</p>
-  <div style="margin-left:auto;">
+  <div class="footer-component_social-icons">
     <ul style="margin: 0;">
       {{#each siteData.contact}}
         <li class="social-icons_item social-icons_item--top link {{this.id}}">
@@ -19,6 +19,10 @@
     align-items: center;
   }
 
+  .footer-component_social-icons {
+    margin-left: auto;
+  }
+
   .social-icons_item--top {
     border-bottom: none;
     padding-top: 25px;
@@ -30,6 +34,36 @@
     border-bottom: none;
     transition: border-top 0.2s ease-in-out;
   }
+
+  {{!-- Responsive --}}
+
+  @media screen and (max-width:850px) {
+    .social-icons_item--top {
+      margin-left: 1rem;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .footer-component {
+      flex-direction: column;
+    }
+
+    .footer-component p {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .footer-component_social-icons {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .social-icons_item--top {
+      padding-top: 0;
+      margin: 0 auto;
+    }
+  }
+
 
 
 </style>

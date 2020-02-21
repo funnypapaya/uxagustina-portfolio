@@ -1,7 +1,7 @@
-<div id="experience" style="padding-top: 8rem;">
+<div id="experience" class="experience-component">
   <h2 class="experience-component-title">Experience</h2>
 
-  <div class="experience-component">
+  <div class="experience-component_content">
     <div class="experience-component_overview">
       <h3>Overview</h3>
       <p>
@@ -18,13 +18,13 @@
       </p>
     </div>
 
-    <div style="margin-right: 3rem;">
+    <div class="experience-component_positions">
       <h3>Positions</h3>
       <ul>
         {{#each siteData.positions}}
           <li class="positions-company-list">
             <img src="{{this.logo}}" alt="{{this.company}} logo" class="positions-image">
-            <div class="experience-component_positions">
+            <div class="experience-component_positions--item">
               <h5>{{this.company}}</h5>
               <p>{{this.jobTitle}}</p>
               <p><i>{{this.period}}</i> · <strong>{{this.periodDuration}}</strong></p>
@@ -37,10 +37,12 @@
   </div>
 
   <div>
-    <h4 class="past-clients-title">Past clients</h4>
-    {{#each siteData.clients}}
-      <img src="{{this}}" class="past-clients-logos">
-    {{/each}}
+    <h4 class="past-clients_title">Past clients</h4>
+      <div class="past-clients_logos">
+      {{#each siteData.clients}}
+        <img src="{{this}}" class="past-clients_item">
+      {{/each}}
+    </div>
   </div>
   <div class="past-clients_link">
     <p>If you want to learn about my complete <strong>UX Design process</strong>, please <a href="https://medium.com/@agusfeijoo/comprehensive-description-of-my-design-process-6c004f2970f8" target="_blank">read this article</a>.</p>
@@ -51,12 +53,16 @@
 
 <style>
 
+  .experience-component {
+    padding-top: 8rem;
+  }
+
   .experience-component-title {
     text-align: center;
     margin-bottom: 5.2rem;
   }
 
-  .experience-component {
+  .experience-component_content {
     display: flex;
     justify-content: space-between;
   }
@@ -66,6 +72,11 @@
   }
 
   .experience-component_positions {
+    margin-right: 3rem;
+    flex: 0 0 19.3rem;
+  }
+
+  .experience-component_positions--item {
     display: inline-block;
   }
 
@@ -89,12 +100,16 @@
     margin-bottom: 3rem;
   }
 
-  .past-clients-title {
+  .past-clients_title {
     text-align: center;
     margin: 8rem 0 3rem 0;
   }
 
-  .past-clients-logos {
+  .past-clients_logos {
+    text-align: center;
+  }
+
+  .past-clients_item {
     margin: 0 2.3rem 4rem 2.3rem;
   }
 
@@ -102,5 +117,49 @@
     text-align: center;
     margin-bottom: 8rem;
   }
+
+  {{!-- Responsive --}}
+
+  @media screen and (max-width:1300px) {
+    .experience-component_overview {
+      margin-right: 4rem;
+    }
+
+    .experience-component_positions {
+      margin-right: 0;
+    }
+
+    .past-clients-logos {
+      margin: 0 1rem 2rem 1rem;
+    }
+  }
+
+  @media screen and (max-width:850px) {
+    .experience-component_content {
+      flex-direction: column;
+    }
+
+    .experience-component_overview {
+      margin: 0 0 3rem 0;
+    }
+
+    .experience-component-title {
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .past-clients_item {
+      margin: 0 4rem 4rem 4rem;
+    }
+
+    .experience-component-title {
+      margin-bottom: 2rem;
+    }
+
+    .experience-component {
+      padding-top: 5rem;
+    }    
+  }  
   
 </style>
