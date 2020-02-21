@@ -23,7 +23,7 @@
       <ul>
         {{#each siteData.positions}}
           <li class="positions-company-list">
-            <img src="{{this.logo}}" alt="{{this.company}} logo" class="positions-image">
+            <img data-src="{{this.logo}}" alt="{{this.company}} logo" class="positions-image lazyload">
             <div class="experience-component_positions--item">
               <h5>{{this.company}}</h5>
               <p>{{this.jobTitle}}</p>
@@ -40,7 +40,7 @@
     <h4 class="past-clients_title">Past clients</h4>
       <div class="past-clients_logos">
       {{#each siteData.clients}}
-        <img src="{{this}}" class="past-clients_item">
+        <img data-src="{{this}}" class="past-clients_item lazyload">
       {{/each}}
     </div>
   </div>

@@ -12,14 +12,14 @@
           <p>{{this.content}}</p>
           <div class="swiper-slide_credentials">
             <div class="swiper-slide_credentials_personal-data">
-              <img src="{{this.photo}}" alt="{{this.name}}" class="swiper-slide_credentials_photo">
+              <img data-src="{{this.photo}}" alt="{{this.name}}" class="swiper-slide_credentials_photo lazyload">
               <div class="swiper-slide_credentials_divider">
                 <h5>{{this.name}}</h5>
                 <p>{{this.jobTitle}}</p>
               </div>
             </div>
             <div class="swiper-slide_credentials">
-              <img src="{{this.logo}}" alt="{{this.company}}">
+              <img data-src="{{this.logo}}" alt="{{this.company}}" class="lazyload">
             </div>
           </div>
         </div>

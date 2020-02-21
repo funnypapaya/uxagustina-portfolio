@@ -10,9 +10,9 @@
         <div class="writing-component_item">
           <a href="{{this.link}}" target="_blank">
             <div>
-              <img src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image">
+              <img data-src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image lazyload">
               {{#if this.logo}}
-                <img src="{{this.logo}}" class="writing-component_logo">
+                <img data-src="{{this.logo}}" class="writing-component_logo lazyload">
               {{/if}}
             </div>
             <div class="writing-component_item_copy">

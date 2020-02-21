@@ -1,9 +1,9 @@
 <div class="projects-component_item">
   {{#if project.image}}
-  <img src="{{project.image}}" alt="">
+  <img data-src="{{project.image}}" alt="{{project.title}}" class="lazyload">
   {{/if}}
   {{#if project.video}}
-  <video autoplay loop src="{{project.video}}"></video>
+  <video autoplay loop data-src="{{project.video}}" alt="{{project.title}}" class="lazyload"></video>
   {{/if}}
 
   <div class="projects_component_details">
