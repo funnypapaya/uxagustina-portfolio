@@ -56,7 +56,7 @@
             "projects": [
                 {
                     "title": "Activity tracking mobile app",
-                    "description": "We were three people collaborating on this project. I was the <strong>main point of contact</strong> with the client, working closely with them defining the goals for the project, managing any unexpected changes that happened along the way and acting as a liaison with the rest of my team. <strong>I was in charge of the UX Design</strong>, defining the overall structure and behavior of the <a href='https://www.indigoawards.com/winners/491' target='_blank'>award-winning</a> Level app. I also conducted <strong>remote moderated Usability Testing sessions</strong> to test our assumptions. Another designer handled the UI Design, and another the Animations.",
+                    "description": "We were three people collaborating on this project. I was the <strong>main point of contact</strong> with the client, working closely with them defining the goals for the project, managing any unexpected changes that happened along the way and acting as a liaison with the rest of my team. <strong>I was in charge of the UX Design</strong>, defining the overall structure and behavior of the <a href='https://www.indigoawards.com/winners/491' target='_blank' rel='noreferrer'>award-winning</a> Level app. I also conducted <strong>remote moderated Usability Testing sessions</strong> to test our assumptions. Another designer handled the UI Design, and another the Animations.",
                     "link": "http://theuxdepartment.com/works/level/",
                     "image": "./images/projects/projects-ux1.jpg"
                 },
@@ -87,7 +87,7 @@
             "projects": [
                 {
                     "title": "Visual identity and website design",
-                    "description": "At Haiku, I was tasked with <strong>redesigning the company’s marketing website</strong> for the re-brand of <a href='https://www.haikuforteams.com/animator/' target='_blank'>Animator</a>, Haiku’s first product. In this opportunity, I was given total <strong></strong>freedom to define the new visual identity</strong> for the company, including typography, color palette and overall visual style. I decided to use an <strong>ample palette</strong> that would give us leverage once the company started launching more products. For the Animator landing page (pictured here) I chose to use keyframes as <strong>custom product miscellanea</strong>, envisioning a similar yet unique treatment for all future products.",
+                    "description": "At Haiku, I was tasked with <strong>redesigning the company’s marketing website</strong> for the re-brand of <a href='https://www.haikuforteams.com/animator/' target='_blank' rel='noreferrer'>Animator</a>, Haiku’s first product. In this opportunity, I was given total <strong></strong>freedom to define the new visual identity</strong> for the company, including typography, color palette and overall visual style. I decided to use an <strong>ample palette</strong> that would give us leverage once the company started launching more products. For the Animator landing page (pictured here) I chose to use keyframes as <strong>custom product miscellanea</strong>, envisioning a similar yet unique treatment for all future products.",
                     "link": "https://dribbble.com/shots/10064955-Product-landing-page",
                     "image": "./images/projects/visual1.jpg"
                 },
@@ -105,7 +105,7 @@
                 },
                 {
                     "title": "Demo app for Diez",
-                    "description": "I was asked to design a sample app that was <strong>simple yet had a lot of visual contrast</strong>, to show how <a href='https://diez.org/' target='_blank'>Diez</a> helps update your Design Language instantly and across codebases.",
+                    "description": "I was asked to design a sample app that was <strong>simple yet had a lot of visual contrast</strong>, to show how <a href='https://diez.org/' target='_blank' rel='noreferrer'>Diez</a> helps update your Design Language instantly and across codebases.",
                     "link": "https://dribbble.com/shots/10065128-Demo-app-for-Diez",
                     "image": "./images/projects/visual4.jpg"
                 }
@@ -130,7 +130,7 @@
                 },
                 {
                     "title": "A trip to the moon",
-                    "description": "<strong>Anaglyph 3D illustration</strong> based on the original poster for the film <a href='https://www.goldposter.com/27820/' target='_blank'>A Trip to the Moon</a> (1902) by Georges Méliès, also featured in the film Hugo.",
+                    "description": "<strong>Anaglyph 3D illustration</strong> based on the original poster for the film <a href='https://www.goldposter.com/27820/' target='_blank' rel='noreferrer'>A Trip to the Moon</a> (1902) by Georges Méliès, also featured in the film Hugo.",
                     "link": "https://dribbble.com/shots/5435080-Trip-To-The-Moon",
                     "image": "./images/projects/illo3.jpg"
                 },
@@ -149,19 +149,19 @@
             "projects": [
                 {
                     "title": "Brandbook hero",
-                    "description": "I was tasked to create a series of animated illustrations, one for each of the company products: Animator, Diez, Brandbook and Storybook for Teams. All of these are currently displayed on <a href='https://www.haikuforteams.com/' target='_blank'>Haiku’s homepage</a> and on each product landing page/website. <strong>Each animation was tailored to communicate what the product is for and how it works</strong>, in a nutshell. In this one, you can see there’s a dashboard containing your design tokens, which can be modified and those changes would automatically propagate across codebases.",
+                    "description": "I was tasked to create a series of animated illustrations, one for each of the company products: Animator, Diez, Brandbook and Storybook for Teams. All of these are currently displayed on <a href='https://www.haikuforteams.com/' target='_blank' rel='noreferrer'>Haiku’s homepage</a> and on each product landing page/website. <strong>Each animation was tailored to communicate what the product is for and how it works</strong>, in a nutshell. In this one, you can see there’s a dashboard containing your design tokens, which can be modified and those changes would automatically propagate across codebases.",
                     "link": "https://share.haiku.ai/u/Tina/BrandbookHero",
                     "video": "./images/projects/animation1.mp4"
                 },
                 {
                     "title": "Learn page hero",
-                    "description": "Animator has a section dedicated to learning resources and tutorials, the <a href='https://www.haikuforteams.com/learn/' target='_blank'>Learn page</a>. I was tasked to create an <strong>animated Hero section</strong> that would somehow communicate the purpose of this page. I decided to illustrate a set of hands and have them draw different types of lines, each one animated using a <strong>variety of techniques and features available in the app</strong>, like Opacity, Scale and Stroke Dasharray and Dashoffset.",
+                    "description": "Animator has a section dedicated to learning resources and tutorials, the <a href='https://www.haikuforteams.com/learn/' target='_blank' rel='noreferrer'>Learn page</a>. I was tasked to create an <strong>animated Hero section</strong> that would somehow communicate the purpose of this page. I decided to illustrate a set of hands and have them draw different types of lines, each one animated using a <strong>variety of techniques and features available in the app</strong>, like Opacity, Scale and Stroke Dasharray and Dashoffset.",
                     "link": "https://share.haiku.ai/u/Tina/LearnPage",
                     "video": "./images/projects/animation2.mp4"
                 },
                 {
                     "title": "Email marketing coupon",
-                    "description": "I created this animation to accompany an <strong>email marketing campaign</strong> offering two months free for <a href='https://www.haikuforteams.com/animator/' target='_blank'>Animator</a>, to celebrate the product’s re-brand.",
+                    "description": "I created this animation to accompany an <strong>email marketing campaign</strong> offering two months free for <a href='https://www.haikuforteams.com/animator/' target='_blank' rel='noreferrer'>Animator</a>, to celebrate the product’s re-brand.",
                     "link": "https://share.haiku.ai/u/Tina/CouponEnvelopeSingle",
                     "video": "./images/projects/animation3.mp4"
                 },
