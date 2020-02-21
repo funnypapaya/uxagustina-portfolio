@@ -23,12 +23,30 @@
         }
     ],
     "clients": [
-        "./images/clientlogo-4info.svg",
-        "./images/clientlogo-ca.svg",
-        "./images/clientlogo-oaktree.svg",
-        "./images/clientlogo-rockwell.svg",
-        "./images/clientlogo-vibrant.svg",
-        "./images/clientlogo-vsp.svg"
+        {
+            "logo": "./images/clientlogo-4info.svg",
+            "name": "4Info"
+        },
+        {
+            "logo": "./images/clientlogo-ca.svg",
+            "name": "Control Arms"
+        },
+        {
+            "logo": "./images/clientlogo-oaktree.svg",
+            "name": "Oaktree"
+        },
+        {
+            "logo": "./images/clientlogo-rockwell.svg",
+            "name": "Rockwell Collins"
+        },
+        {
+            "logo":  "./images/clientlogo-vibrant.svg",
+            "name": "Vibrant America"
+        },
+        {
+            "logo": "./images/clientlogo-vsp.svg",
+            "name": "VSP Global"
+        }        
     ],
     "works": [
         {
@@ -166,6 +184,7 @@
                     "excerpt": "Covering color psychology, terminology, rules, applications in web design, and tools & resources.",
                     "image": "./images/writing/color-usage.jpg",
                     "logo": "./images/freecodecamp.png",
+                    "logo-name": "FreeCodeCamp",
                     "link": "https://medium.com/free-code-camp/comprehensive-guide-for-color-usage-in-web-design-e2a9afce09fb"
                 },
                 {
@@ -185,6 +204,7 @@
                     "excerpt": "In-depth review of my approach to projects, including phases, techniques, tools and tips.",
                     "image": "./images/writing/design-process.jpg",
                     "logo": "./images/uxcollective.png",
+                    "logo-name": "UX Collective",
                     "link": "https://uxdesign.cc/comprehensive-description-of-my-design-process-6c004f2970f8"
                 },
                 {
@@ -204,6 +224,7 @@
                     "excerpt": "Brief tutorial describing how to make an element follow a curved trajectory using tweens.",
                     "image": "./images/writing/curved-paths.gif",
                     "logo": "./images/logo-haiku.jpg",
+                    "logo-name": "Haiku",
                     "link": "https://www.haikuforteams.com/blog/curved-paths/"
                 },
                 {
@@ -211,6 +232,7 @@
                     "excerpt": "Covering the difference between Frame Actions and Element Actions, and what each one can do.",
                     "image": "./images/writing/understanding-actions.jpg",
                     "logo": "./images/logo-haiku.jpg",
+                    "logo-name": "Haiku",
                     "link": "https://www.haikuforteams.com/blog/understanding-actions/"
                 },
                 {
@@ -218,6 +240,7 @@
                     "excerpt": "The experience of our remote team meeting face-to-face for the first time in Patagonia.",
                     "image": "./images/writing/summit1.jpg",
                     "logo": "./images/logo-haiku.jpg",
+                    "logo-name": "Haiku",
                     "link": "https://www.haikuforteams.com/blog/remote-team-summit/"
                 },
                 {
@@ -225,6 +248,7 @@
                     "excerpt": "Our team meets once again, a year later, this time in CDMX to get a product out the door.",
                     "image": "./images/writing/summit2.jpg",
                     "logo": "./images/logo-haiku.jpg",
+                    "logo-name": "Haiku",
                     "link": "https://www.haikuforteams.com/blog/mexico-city/"
                 },
                 {
@@ -232,6 +256,7 @@
                     "excerpt": "Description of the structure and workflow of the multi-disciplinary team at The UX Department. ",
                     "image": "./images/writing/dissection-team.jpg",
                     "logo": "./images/trymyui.jpg",
+                    "logo-name": "Try My UI",
                     "link": "https://www.trymyui.com/blog/2015/07/15/dissection-of-a-ux-team/"
                 }
             ]

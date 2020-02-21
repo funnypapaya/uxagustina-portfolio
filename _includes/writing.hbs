@@ -8,11 +8,11 @@
 
       {{#each this.posts}}
         <div class="writing-component_item">
-          <a href="{{this.link}}" target="_blank">
+          <a href="{{this.link}}" target="_blank" rel="noreferrer">
             <div>
               <img data-src="{{this.image}}" alt="{{this.title}}" class="writing-component_post-image lazyload">
               {{#if this.logo}}
-                <img data-src="{{this.logo}}" class="writing-component_logo lazyload">
+                <img data-src="{{this.logo}}" class="writing-component_logo lazyload" alt="{{this.logo-name}}">
               {{/if}}
             </div>
             <div class="writing-component_item_copy">
@@ -23,7 +23,7 @@
         </div>
       {{/each}}
 
-      <a href="{{this.link}}" class="link--highlighted writing-component_see-more-articles" target="_blank">See more {{this.section}} articles</a><img src="./images/chevron.svg" class="link-chevron">
+      <a href="{{this.link}}" class="link--highlighted writing-component_see-more-articles" target="_blank" rel="noreferrer">See more {{this.section}} articles</a><img src="./images/chevron.svg" class="link-chevron" alt="Chevron icon">
       
     </div>
     {{/each}}
