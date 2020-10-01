@@ -3,22 +3,22 @@
         {
             "company": "Haiku",
             "jobTitle": "UX Designer",
-            "period": "Jul 2018 - present",
-            "periodDuration": "2 years",
+            "period": "Jul 2018 - Aug 2020",
+            "periodDuration": "2 yrs 2 mos",
             "logo": "./images/logo-haiku.jpg"
         },
         {
             "company": "The UX Department",
             "jobTitle": "UX Designer",
-            "period": "Nov 2013 - Jul 2018",
-            "periodDuration": "5 years",
+            "period": "Nov 2013 - Jun 2018",
+            "periodDuration": "4 yrs 8 mos",
             "logo": "./images/logo-tuxd.jpg"
         },
         {
             "company": "Maderplak",
             "jobTitle": "Graphic Designer",
             "period": "Oct 2013 - Feb 2014",
-            "periodDuration": "5 months",
+            "periodDuration": "5 mos",
             "logo": "./images/logo-maderplak.jpg"
         }
     ],
@@ -323,7 +323,7 @@
         },
         {
             "name": "Product Hunt",
-            "link": "https://www.producthunt.com/@uxagustina",
+            "link": "https://www.producthunt.com/@uxagustina/made",
             "id": "ph",
             "showOnHero": true
         },
