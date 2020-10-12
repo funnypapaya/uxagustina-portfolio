@@ -5,21 +5,16 @@
             "jobTitle": "UX Designer",
             "period": "Jul 2018 - Aug 2020",
             "periodDuration": "2 yrs 2 mos",
-            "logo": "./images/logo-haiku.jpg"
+            "logo": "./images/logo-haiku.jpg",
+            "website": "https://www.haikuforteams.com/"
         },
         {
             "company": "The UX Department",
             "jobTitle": "UX Designer",
             "period": "Nov 2013 - Jun 2018",
             "periodDuration": "4 yrs 8 mos",
-            "logo": "./images/logo-tuxd.jpg"
-        },
-        {
-            "company": "Maderplak",
-            "jobTitle": "Graphic Designer",
-            "period": "Oct 2013 - Feb 2014",
-            "periodDuration": "5 mos",
-            "logo": "./images/logo-maderplak.jpg"
+            "logo": "./images/logo-tuxd.jpg",
+            "website": "https://theuxdepartment.com/"
         }
     ],
     "clients": [
@@ -220,20 +215,20 @@
             "link": "https://www.haikuforteams.com/blog/",
             "posts": [
                 {
-                    "title": "Animating Elements Along Curved Paths",
-                    "excerpt": "Brief tutorial describing how to make an element follow a curved trajectory using tweens.",
-                    "image": "./images/writing/curved-paths.gif",
-                    "logo": "./images/logo-haiku.jpg",
-                    "logo-name": "Haiku",
-                    "link": "https://www.haikuforteams.com/blog/curved-paths/"
+                    "title": "Design Systems: How to Keep in Sync with Code — SF Design Week 2019",
+                    "excerpt": "This post provides a recap of the event plus videos of the speakers & panelists.",
+                    "image": "./images/writing/SFDW2019.jpg",
+                    "logo": "./images/logo-diez.jpg",
+                    "logo-name": "Diez",
+                    "link": "https://medium.com/dieznative/design-systems-how-to-keep-in-sync-with-code-sf-design-week-2019-17bdead68554"
                 },
                 {
-                    "title": "Understanding Actions",
-                    "excerpt": "Covering the difference between Frame Actions and Element Actions, and what each one can do.",
-                    "image": "./images/writing/understanding-actions.jpg",
+                    "title": "Our remote team co-located in Mexico City, and this is what happened",
+                    "excerpt": "Our team meets once again, a year later, this time in CDMX to get a product out the door.",
+                    "image": "./images/writing/summit2.jpg",
                     "logo": "./images/logo-haiku.jpg",
                     "logo-name": "Haiku",
-                    "link": "https://www.haikuforteams.com/blog/understanding-actions/"
+                    "link": "https://www.haikuforteams.com/blog/mexico-city/"
                 },
                 {
                     "title": "What we learned from our first remote team summit",
@@ -244,12 +239,12 @@
                     "link": "https://www.haikuforteams.com/blog/remote-team-summit/"
                 },
                 {
-                    "title": "Our remote team co-located in Mexico City, and this is what happened",
-                    "excerpt": "Our team meets once again, a year later, this time in CDMX to get a product out the door.",
-                    "image": "./images/writing/summit2.jpg",
-                    "logo": "./images/logo-haiku.jpg",
+                    "title": "Understanding Actions",
+                    "excerpt": "Covering the difference between Frame Actions and Element Actions, and what each one can do.",
+                    "image": "./images/writing/understanding-actions.jpg",
+                    "logo": "./images/logo-animator.jpg",
                     "logo-name": "Haiku",
-                    "link": "https://www.haikuforteams.com/blog/mexico-city/"
+                    "link": "https://www.haikuforteams.com/blog/understanding-actions/"
                 },
                 {
                     "title": "Dissection of a UX team",
@@ -294,6 +289,14 @@
             "jobTitle": "Founder and Creative Director",
             "logo": "./images/tuxd.svg",
             "company": "The UX Department"
+        },
+        {
+            "content": "Agustina is a fantastic product designer who not only delivers meticulously researched UX specifications, but also creates beautiful graphics and documentation. I am constantly impressed by the quality, depth, and originality of her work, and look forward to our next opportunity to work together!",
+            "photo": "./images/sasha-joseph.jpeg",
+            "name": "Sasha Joseph",
+            "jobTitle": "Principal Software Engineer",
+            "logo": "./images/haiku.svg",
+            "company": "Haiku"
         }
     ],
     "contact": [

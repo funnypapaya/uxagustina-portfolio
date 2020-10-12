@@ -23,13 +23,15 @@
       <ul>
         {{#each siteData.positions}}
           <li class="positions-company-list">
-            <img data-src="{{this.logo}}" alt="{{this.company}} logo" class="positions-image lazyload">
-            <div class="experience-component_positions--item">
-              <h5>{{this.company}}</h5>
-              <p>{{this.jobTitle}}</p>
-              <p>{{this.period}}</p>
-              <p><i>{{this.periodDuration}}</i></p>
-            </div>
+            <a href="{{this.website}}" target="_blank" rel="noreferrer">
+              <img data-src="{{this.logo}}" alt="{{this.company}} logo" class="positions-image lazyload">
+              <div class="experience-component_positions--item">
+                <h5>{{this.company}}</h5>
+                <p>{{this.jobTitle}}</p>
+                <p>{{this.period}}</p>
+                <p><i>{{this.periodDuration}}</i></p>
+              </div>
+            </a>
           </li>
         {{/each}}
       </ul>
@@ -87,18 +89,33 @@
 
   .experience-component_positions p {
     margin: 0.3rem 0;
+    font-weight: 400;
   }
 
   .positions-image {
     margin-right: 0.8rem;
     border-radius: 50%;
     width: 2.81rem;
+    vertical-align: top;
   }
 
   .positions-company-list {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
+  }
+
+  .positions-company-list:hover {
+    transform: translateX(2rem);
+    transition: transform var(--transition-writing-item);
+  }
+
+  .positions-company-list a {
+    color: var(--color-black);
+  }
+
+  .positions-company-list a:hover {
+    border-bottom: none;
   }
 
   .past-clients_title {
