@@ -5,7 +5,7 @@ caseStudyAuthor: Written by Agustina Feijóo for The UX Department. The original
 caseStudyDate: Dec 2015 - Jun 2016
 coverImage: /images/case-studies/level/vsp-cover.jpg
 tags: caseStudy
-canonicalURL: http://theuxdepartment.com/works/level/
+canonicalURL: https://theuxdepartment.com/works/level/
 ---
 
 

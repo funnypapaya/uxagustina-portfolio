@@ -5,7 +5,7 @@ caseStudyAuthor: Written by Agustina Feijóo and Lucila Díaz Spólita for The U
 caseStudyDate: Mar 2014 - May 2015
 coverImage: /images/case-studies/globespinning/cover.jpg
 tags: caseStudy
-canonicalURL: http://theuxdepartment.com/works/globespinning/
+canonicalURL: https://theuxdepartment.com/works/globespinning/
 ---
 
 ## Overview
