@@ -1,0 +1,50 @@
+<div id="case-studies" class="cs-component">
+  <h2 class="projects-component_title projects-component_title--CS">Case Studies</h2>
+
+    <p class="CS-description">These projects are the result of teamwork, interdisciplinary collaboration, well-defined processes and validation. My contributions were always centered around UX.</p>
+    <div class="CS-projects">
+      {{#each siteData.caseStudies}}
+        <div class="case-study"> 
+        {{>single-case-study .}}
+        </div>
+      {{/each}}
+    </div>
+</div>
+
+{{> divider}}
+
+<style>
+  .cs-component {
+    padding: 10rem 0 8rem 0;
+  }
+
+  .CS-description {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto 6rem auto;
+  }
+
+  .CS-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .case-study {
+    width: 48%;
+    margin-bottom: 3rem;
+  }
+
+  {{!-- Responsive --}}
+
+  @media screen and (max-width:900px) {
+    .CS-projects {
+      flex-direction: column;
+    }
+
+    .case-study {
+      width: 100%;
+    }
+  }
+
+</style>

@@ -1,63 +1,18 @@
-<!doctype html>
-<html class="no-js" lang="en">
+---
+layout: baseLayout.hbs
+---
 
-<head>
-  <meta charset="utf-8">
-  <title>Agustina Feijóo - UX Designer</title>
-  <meta name="description" content="UX Designer with 6+ years of professional experience, with a background in Graphic Design. Working remotely for the world.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/index.css">
+{{> hero}}
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+{{> experience}}
 
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+{{> case-studies}}
 
-  <!-- Hotjar Tracking Code for www.uxagustina.com -->
-  <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:861008,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-</head>
+{{> projects}}
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+{{> writing}}
 
-  {{> nav}}
+{{> recommendations}}
 
-  {{> hero}}
-
-  {{> experience}}
-  
-  {{> projects}}
-
-  {{> writing}}
-
-  {{> recommendations}}
-
-  {{> cta}}
-
-  {{> footer}}
-
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="scripts/main.js"></script>
-  <script src="scripts/lazysizes.min.js" async></script>
-</body>
-
-</html>
+{{> cta}}
+<script src="/scripts/home.js"></script>

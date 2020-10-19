@@ -1,0 +1,148 @@
+---
+layout: baseLayout.hbs
+coverImage: https://placehold.it/2000x450
+---
+
+{{#if canonicalURL}}
+<link rel="canonical" href="{{canonicalURL}}">
+{{/if}}
+
+<div class="case-study__title-section">
+  <h1>{{caseStudyTitle}}</h1>
+  <p>{{caseStudyAuthor}}</p>
+  <p class="CS-date">{{caseStudyDate}}</p>
+</div>
+<div class="case-study__featured-img">
+  <img src="{{coverImage}}" alt="" class="featured">
+</div>
+
+{{{ content }}}
+
+<div class="other-cs-section">
+  <div>
+  {{#with (getPreviousCollectionItem collections.caseStudy page)}}
+      <img src="/images/chevron-left.svg" class="link-chevron link-chevron--left" alt="Chevron icon"><a href="{{this.url}}" class="link--highlighted" rel="noreferrer">Previous case study</a>
+      <div class="prev-next-CS-name prev-CS">
+        {{this.data.caseStudyTitle}}
+      </div>
+  {{/with}}
+
+  </div>
+  <div>
+
+{{#with (getNextCollectionItem collections.caseStudy page)}}
+    <a href="{{this.url}}" class="link--highlighted" rel="noreferrer">Next case study</a><img src="/images/chevron.svg" class="link-chevron" alt="Chevron icon">
+    <div class="prev-next-CS-name next-CS">
+      {{this.data.caseStudyTitle}}
+    </div>   
+{{/with}}
+
+  </div>
+  
+</div>
+
+
+
+<style>
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content ul {
+    list-style-type: disc;
+    padding-left: 45px;
+  }
+
+  .content h2 {
+    margin-top: 90px;
+  }
+
+  .content h3 {
+    line-height: 45px;
+    margin-top: 60px;
+  }
+
+  .content h4 {
+    margin-top: 60px;
+  }
+
+  .case-study__title-section {
+    text-align: center;
+    margin: 200px 0 60px 0;
+  }
+
+  .CS-date {
+    color: var(--color-dark-grey);
+    font-size: 14px;
+  }
+
+  .case-study__featured-img {
+    height: 450px;
+  }
+
+  .case-study__featured-img img {
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    height: 450px;
+  }
+
+  .other-cs-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+  }
+
+  .prev-next-CS-name {
+    color: var(--color-dark-grey); 
+    max-width: 300px;
+  }
+
+  .prev-next-CS-name.prev-CS {
+    padding-left: 35px;
+  }
+
+  .prev-next-CS-name.next-CS {
+    padding-right: 35px;
+  }
+
+  figure {
+    margin: 60px 0;
+  }
+
+  .content-images {
+    border: 1px solid var(--color-medium-grey);
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .text-highlight {
+    color: var(--color-accent);
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .carousel-content {
+    text-align: center;
+  }
+
+  .swiper-slide {
+    padding: 5rem;
+  }
+
+  .swiper-slide img {
+    width: auto;
+  }
+
+  .swiper-slide p {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width:700px) {
+    .swiper-slide {
+      padding: 3rem 0;
+    }
+  }
+</style>

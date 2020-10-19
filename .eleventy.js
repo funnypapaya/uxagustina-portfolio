@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
       dir: { input: '.', output: 'dist', data: '_data' },
       passthroughFileCopy: true,
       templateFormats: ['njk', 'md', 'css', 'html', 'yml'],
-      htmlTemplateEngine: 'hbs'
+      htmlTemplateEngine: 'hbs',
+      markdownTemplateEngine: 'hbs',
     }
   }

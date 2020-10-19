@@ -1,0 +1,136 @@
+<div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {{> @partial-block }}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+
+<style>
+  .swiper-slide {
+    padding: 5rem 14rem;
+    line-height: 2.1rem;
+  }
+
+  .swiper-slide p {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .swiper-button-prev,.swiper-button-next {
+    transform:scale(0.5);
+    color: var(--color-black);
+  }
+
+  .swiper-button-prev:hover ,.swiper-button-next:hover {
+    color: var(--color-accent);
+  }
+
+  .swiper-slide_credentials {
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-slide_credentials img {
+    align-self: center;
+    margin: 0 2rem;
+  }
+
+  .swiper-slide_credentials_personal-data {
+    display: flex;
+  }
+
+  .swiper-slide_credentials_photo {
+    border-radius: 50%;
+    max-width: 3.75rem;
+  }
+
+  .swiper-slide_credentials h5,  .swiper-slide_credentials p {
+    margin: 0;
+    text-align: left;
+  }
+
+  .swiper-slide_credentials_divider {
+    border-right: 0.125rem solid var(--color-medium-grey);
+    padding-right: 2rem;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--color-accent);
+  }
+
+  @media screen and (max-width:1170px) {
+    .swiper-slide {
+      padding: 5rem 6rem;
+    }
+  }
+
+  @media screen and (max-width:950px) {
+    .swiper-button-prev,.swiper-button-next {
+      display: none;
+    }
+
+    .swiper-slide {
+      padding: 2rem 0 5rem 0;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .swiper-slide_credentials_divider {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    .swiper-slide_credentials_divider p, .swiper-slide_credentials_divider h5 {
+      text-align: center;
+    }
+
+    .swiper-slide_credentials {
+      padding-bottom: 2rem;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .swiper-slide_credentials_personal-data {
+      border-bottom: 0.125rem solid var(--color-medium-grey);
+      margin: 2rem auto;
+      display: inline-block;
+    }
+
+    .swiper-slide p {
+      margin-bottom: 2rem;
+    }
+
+    .swiper-slide {
+      padding: 2rem 0;
+    }
+  }
+
+
+  @media screen and (max-width:430px) {
+    .swiper-slide_credentials_divider {
+      margin-right: 1rem;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        hide: true,
+      }
+    })
+  }); 
+  </script>

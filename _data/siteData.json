@@ -43,38 +43,27 @@
             "name": "VSP Global"
         }        
     ],
-    "works": [
+    "caseStudies": [
         {
-            "category": "UX Design",
-            "description": "These projects are the result of teamwork, interdisciplinary collaboration, well-defined processes and validation. My contributions were always centered around UX.",
-            "cta": "Read the Case Study",
-            "projects": [
-                {
-                    "title": "Activity tracking mobile app",
-                    "description": "We were three people collaborating on this project. I was the <strong>main point of contact</strong> with the client, working closely with them defining the goals for the project, managing any unexpected changes that happened along the way and acting as a liaison with the rest of my team. <strong>I was in charge of the UX Design</strong>, defining the overall structure and behavior of the <a href='https://www.indigoawards.com/winners/491' target='_blank' rel='noreferrer'>award-winning</a> Level app. I also conducted <strong>remote moderated Usability Testing sessions</strong> to test our assumptions. Another designer handled the UI Design, and another the Animations.",
-                    "link": "http://theuxdepartment.com/works/level/",
-                    "image": "./images/projects/projects-ux1.jpg"
-                },
-                {
-                    "title": "Graphic system for screen and print",
-                    "description": "I worked with this client for several years, on many projects ranging from websites, to mobile apps and printed materials. The main challenge was keeping all their sub-brands coherent yet unique. My contributions varied according to the needs of the project. On different occasions I served as the <strong>Project Manager</strong>, I was in charge of <strong>UX Design</strong>, conducted moderated <strong>Usability Testing sessions</strong>, participated in the <strong>UI Design phase</strong>, and did <strong>QA</strong>.",
-                    "link": "http://theuxdepartment.com/works/vibrant-america/",
-                    "image": "./images/projects/projects-ux2.jpg"
-                },
-                {
-                    "title": "Travel mobile app for iOS",
-                    "description": "Three people team. I worked on the <strong>UX design phase</strong> alongside the Creative Director, <strong>defining the IA and IxD</strong>, while a teammate defined the visual styles (UI Design).",
-                    "link": "http://theuxdepartment.com/works/globespinning/",
-                    "image": "./images/projects/projects-ux3.jpg"
-                },
-                {
-                    "title": "News curation web app",
-                    "description": "We were two designers working on the project. My main collaboration was <strong>leading the UX Design</strong> for the <strong>main feature</strong> of the Boost.ly app called <strong>the Ripple Gauge.</strong>",
-                    "link": "http://theuxdepartment.com/works/boostly/",
-                    "image": "./images/projects/projects-ux4.jpg"
-                }
-            ]
+            "name": "Diez",
+            "description": "User research for product idea validation. Diez is a free & open-source developer toolkit for expressing visual styles.",
+            "link": "/case-studies/diez",
+            "image": "./images/cs-diez.jpg"
         },
+        {
+            "name": "Level",
+            "description": "UX design and usability testing for award-winning mobile app, created to be paired with health-tracking optical frames.",
+            "link": "/case-studies/level",
+            "image": "./images/cs-level.jpg"
+        },
+        {
+            "name": "Globespinning",
+            "description": "UX design for mobile app that lets users create and share travel itineraries from pictures taken with their phones.",
+            "link": "/case-studies/globespinning/",
+            "image": "./images/cs-globespinning.jpg"
+        }    
+    ],
+    "works": [
         {
             "category": "Visual Design",
             "description": "I selected these projects because I worked on them on my own and had 100% creative freedom to define all visual styles, as well as the overall structure and behavior.",
@@ -99,9 +88,9 @@
                     "image": "./images/projects/visual3.jpg"
                 },
                 {
-                    "title": "Demo app for Diez",
-                    "description": "I was asked to design a sample app that was <strong>simple yet had a lot of visual contrast</strong>, to show how <a href='https://diez.org/' target='_blank' rel='noreferrer'>Diez</a> helps update your Design Language instantly and across codebases.",
-                    "link": "https://dribbble.com/shots/10065128-Demo-app-for-Diez",
+                    "title": "Upgrade modal for Storybook for Teams",
+                    "description": "I designed the onboarding flow and the upgrade modal for the <a href='https://www.storybookforteams.com/' target='_blank' rel='noreferrer'>Storybook for Teams</a> app.",
+                    "link": "https://dribbble.com/shots/14313940-Upgrade-modal",
                     "image": "./images/projects/visual4.jpg"
                 }
             ]

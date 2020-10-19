@@ -6,7 +6,8 @@
 :root {
   --color-white:#fff;
   --color-light-grey: #FBFBFC;
-  --color-dark-grey: #E7E7E7;
+  --color-medium-grey: #E7E7E7;
+  --color-dark-grey: #535461;
   --color-black: #0A090C;
   --color-accent: #5488f0;
   --color-linkedin: #0077B5;
@@ -23,7 +24,7 @@
 .divider {
   position: relative;
   display: flex;
-  border-bottom: 1px solid var(--color-dark-grey);
+  border-bottom: 1px solid var(--color-medium-grey);
 }
 
 .divider::before {
@@ -32,8 +33,8 @@
   bottom: -1px;
   left: -9999px;
   right: 0;
-  border-left: 9999px solid var(--color-dark-grey);
-  box-shadow: 9999px 0 0 var(--color-dark-grey);
+  border-left: 9999px solid var(--color-medium-grey);
+  box-shadow: 9999px 0 0 var(--color-medium-grey);
   height: 1px;
   z-index: 5;
 }
@@ -57,7 +58,7 @@
   left: 0;
   position: absolute;
   height: 1px;
-  background-color: var(--color-dark-grey);
+  background-color: var(--color-medium-grey);
   bottom: 0;
   z-index: -1;
   box-shadow: none;
@@ -66,7 +67,7 @@
 
 .divider--top::before {
   top: -1px;
-  border-top: 1px solid var(--color-dark-grey);
+  border-top: 1px solid var(--color-medium-grey);
 }
 
 
@@ -107,10 +108,12 @@ strong, .bold {
 
 .h2, h2 {
   font-size: 2.25rem;
+  line-height: 3rem;
 }
 
 .h3, h3 {
   font-size: 2rem;
+  line-height: 3rem;
 }
 
 .h4, h4 {
@@ -206,11 +209,18 @@ ul {
   vertical-align: middle;
 }
 
+.link-chevron--left {
+  margin-right: 0.8rem
+}
+
 .link--highlighted {
   font-weight: 700;
   text-transform: uppercase;
 }
 
+.content {
+  margin-top: 150px;
+}
 
 
 /**

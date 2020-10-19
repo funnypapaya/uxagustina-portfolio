@@ -3,11 +3,8 @@
   <div class="recommendations-component_more-link">
     <a href="https://www.linkedin.com/in/uxagustina/" class="link--highlighted"  rel="noreferrer">See more on my LinkedIn Profile</a><img src="./images/chevron.svg" class="link-chevron" alt="Chevron icon">
   </div>
-  <div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
+    {{#> carousel }}
       {{#each siteData.recommendations}}
-        <!-- Slides -->
         <div class="swiper-slide">
           <p>{{this.content}}</p>
           <div class="swiper-slide_credentials">
@@ -24,13 +21,7 @@
           </div>
         </div>
         {{/each}}
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    {{/carousel}}
   </div>
 </div>
 
@@ -44,78 +35,9 @@
     text-align: center;
   }
 
-  .swiper-slide {
-    padding: 5rem 14rem;
-    line-height: 2.1rem;
-  }
-
-  .swiper-slide p {
-    margin-bottom: 5rem;
-    text-align: center;
-  }
-
-  .swiper-button-prev,.swiper-button-next {
-    transform:scale(0.5);
-    color: var(--color-black);
-  }
-
-  .swiper-button-prev:hover ,.swiper-button-next:hover {
-    color: var(--color-accent);
-  }
-
-  .swiper-slide_credentials {
-    display: flex;
-    justify-content: center;
-  }
-
-  .swiper-slide_credentials img {
-    align-self: center;
-    margin: 0 2rem;
-  }
-
-  .swiper-slide_credentials_personal-data {
-    display: flex;
-  }
-
-  .swiper-slide_credentials_photo {
-    border-radius: 50%;
-    max-width: 3.75rem;
-  }
-
-  .swiper-slide_credentials h5,  .swiper-slide_credentials p {
-    margin: 0;
-    text-align: left;
-  }
-
-  .swiper-slide_credentials_divider {
-    border-right: 0.125rem solid var(--color-dark-grey);
-    padding-right: 2rem;
-  }
-
-  .swiper-pagination-bullet-active {
-    background: var(--color-accent);
-  }
-
   .recommendations-component_more-link {
     text-align: center;
     margin: 0;
-  }
-
-  {{!-- Responsive --}}
-  @media screen and (max-width:1170px) {
-    .swiper-slide {
-      padding: 5rem 6rem;
-    }
-  }
-
-  @media screen and (max-width:950px) {
-    .swiper-button-prev,.swiper-button-next {
-      display: none;
-    }
-
-    .swiper-slide {
-      padding: 2rem 0 5rem 0;
-    }
   }
 
   @media screen and (max-width:650px) {
@@ -123,70 +45,11 @@
       margin-bottom: 4rem;
       padding-top: 4rem;
     }
-
-    .swiper-slide_credentials_divider {
-      border-right: none;
-      padding-right: 0;
-    }
-
-    .swiper-slide_credentials_divider p, .swiper-slide_credentials_divider h5 {
-      text-align: center;
-    }
-
-    .swiper-slide_credentials {
-      padding-bottom: 2rem;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .swiper-slide_credentials_personal-data {
-      border-bottom: 0.125rem solid var(--color-dark-grey);
-      margin: 2rem auto;
-      display: inline-block;
-    }
-
-    .swiper-slide p {
-      margin-bottom: 2rem;
-    }
-
-    .swiper-slide {
-      padding: 2rem 0;
-    }
   }
 
-
   @media screen and (max-width:430px) {
-    .swiper-slide_credentials_divider {
-      margin-right: 1rem;
-    }
-
     .recommendations-component_title {
       font-size: 2rem;
     }
   }
 </style>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      loop: true,
-
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      //Scroll bar
-      scrollbar: {
-        hide: true,
-      }
-    })
-  }); 
-  </script>

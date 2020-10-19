@@ -1,22 +1,27 @@
 <nav class="main-nav" id="navbar">
   <div class="main-nav_container">
-    <div class="main-nav_brand">
-      <img src="./images/agustina-feijoo-headshot.png" alt="Agustina Feijoo headshot">
-      <span class="h5">Tina Feijoo</span>
+    <div>
+      <a href="/index.html" class="main-nav_brand">
+        <img src="/images/agustina-feijoo-headshot.png" alt="Agustina Feijoo headshot">
+        <span class="h5">Tina Feijóo</span>
+      </a>
     </div>
 
     <ul>
       <li>
-        <a href="#experience">Experience</a>
+        <a href="/index.html#experience">Experience</a>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <a href="/index.html#case-studies">Case studies</a>
       </li>
       <li>
-        <a href="#writing">Writing</a>
+        <a href="/index.html#other-projects">Other projects</a>
       </li>
       <li>
-        <a href="#recommendations">Recommendations</a>
+        <a href="/index.html#writing">Writing</a>
+      </li>
+      <li>
+        <a href="/index.html#recommendations">Recommendations</a>
       </li>
     </ul>
 
@@ -32,7 +37,7 @@
   top: 0;
   left: 0;
   transition: top 0.3s;
-  border-bottom: 0.0625rem solid var(--color-dark-grey);
+  border-bottom: 0.0625rem solid var(--color-medium-grey);
   background-color: var(--color-white);
   z-index: 3;
   }
@@ -68,6 +73,11 @@
   .main-nav_brand {
     display: inline-block;
     margin-right: 3rem;
+    color: var(--color-black);
+  }
+
+  .main-nav_brand:hover {
+    border-bottom: 0.0625rem solid transparent;
   }
 
   .main-nav_brand img {
@@ -87,7 +97,7 @@
     }
   }
 
-  @media screen and (max-width:970px) {
+  @media screen and (max-width:1150px) {
     .main-nav ul {
       display: none;
     }
