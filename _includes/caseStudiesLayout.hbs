@@ -20,7 +20,7 @@ coverImage: https://placehold.it/2000x450
 
 <div class="other-cs-section">
   <div>
-  {{#with (getPreviousCollectionItem collections.caseStudy page)}}
+  {{#with (getPreviousCollectionItem (reverse collections.caseStudy) page)}}
       <img src="/images/chevron-left.svg" class="link-chevron link-chevron--left" alt="Chevron icon"><a href="{{this.url}}" class="link--highlighted" rel="noreferrer">Previous case study</a>
       <div class="prev-next-CS-name prev-CS">
         {{this.data.caseStudyTitle}}
@@ -30,7 +30,7 @@ coverImage: https://placehold.it/2000x450
   </div>
   <div>
 
-{{#with (getNextCollectionItem collections.caseStudy page)}}
+{{#with (getNextCollectionItem (reverse collections.caseStudy) page)}}
     <a href="{{this.url}}" class="link--highlighted" rel="noreferrer">Next case study</a><img src="/images/chevron.svg" class="link-chevron" alt="Chevron icon">
     <div class="prev-next-CS-name next-CS">
       {{this.data.caseStudyTitle}}
@@ -128,6 +128,12 @@ coverImage: https://placehold.it/2000x450
     text-align: center;
   }
 
+  .carousel-content img {
+    max-width: 650px;
+    width: 100%;
+  }
+
+
   .swiper-slide {
     padding: 5rem;
   }
@@ -138,6 +144,13 @@ coverImage: https://placehold.it/2000x450
 
   .swiper-slide p {
     margin-bottom: 0;
+  }
+
+  @media screen and (max-width:900px) {
+    .carousel-content img {
+      max-width: 400px;
+      width: 100%;
+    }
   }
 
   @media screen and (max-width:700px) {

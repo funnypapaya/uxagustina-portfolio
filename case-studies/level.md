@@ -6,6 +6,7 @@ caseStudyDate: Dec 2015 - Jun 2016
 coverImage: /images/case-studies/level/vsp-cover.jpg
 tags: caseStudy
 canonicalURL: https://theuxdepartment.com/works/level/
+date: 2016-09-10   
 ---
 
 

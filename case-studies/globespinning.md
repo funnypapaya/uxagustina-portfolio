@@ -6,6 +6,7 @@ caseStudyDate: Mar 2014 - May 2015
 coverImage: /images/case-studies/globespinning/cover.jpg
 tags: caseStudy
 canonicalURL: https://theuxdepartment.com/works/globespinning/
+date: 2015-08-23 
 ---
 
 ## Overview

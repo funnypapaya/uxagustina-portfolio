@@ -4,6 +4,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./favicon.ico')
     eleventyConfig.addPassthroughCopy('./pdf')
     eleventyConfig.addPassthroughCopy('./_redirects')
+
+    eleventyConfig.addHandlebarsHelper('reverse', function (arr) {
+      return Array.from(arr).reverse();
+    });
   
     return {
       dir: { input: '.', output: 'dist', data: '_data' },

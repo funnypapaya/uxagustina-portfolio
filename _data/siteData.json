@@ -45,6 +45,12 @@
     ],
     "caseStudies": [
         {
+            "name": "Haiku Crow",
+            "description": "Product design for strategic pricing web app aimed towards marketing and sales teams, plus marketing website.",
+            "link": "/case-studies/crow",
+            "image": "./images/cs-crow.jpg"
+        },
+        {
             "name": "Diez",
             "description": "User research for product idea validation. Diez is a free & open-source developer toolkit for expressing visual styles.",
             "link": "/case-studies/diez",

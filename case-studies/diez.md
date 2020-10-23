@@ -5,15 +5,17 @@ caseStudyAuthor: Written by Agustina Feijóo.
 coverImage: /images/case-studies/diez/diez-CS-cover.jpg
 caseStudyDate: Dec 2018 - Feb 2020
 tags: caseStudy
+date: 2020-10-02  
 ---
 
 ## Overview
-Haiku for Teams seeks to help teams collaborate better by creating tools that bridge the gap between disciplines. One of the products born from that initiative is Diez, the design token framework. Diez is a free & open-source developer toolkit for expressing visual styles that can be shared across codebases, native platforms, and teams. It reduces the cost of delivering a consistent visual identity across a company’s apps & websites.
+Haiku for Teams seeks to help teams improve their collaborative processes through innovative tools. One of the products born from that initiative is Diez, the design token framework. Diez is a free & open-source developer toolkit for expressing visual styles that can be shared across codebases, native platforms, and teams. It reduces the cost of delivering a consistent visual identity across a company’s apps & websites.
 
-<a href="http://diez.org/" target="_blank">Visit website</a>
+<a href="https://www.haikuforteams.com/" target="_blank">Company website</a>
+<a href="http://diez.org/" target="_blank">Diez website</a>
 
 ## My role
-I was a contractor for the company working full time for two years as a UX Designer. I advocated for and led this research effort.
+I advocated for and led this research effort.
 
 
 ## Problem statement
@@ -34,7 +36,7 @@ During our first company summit, I facilitated an on-site workshop during which 
 
 
 ## Scope and constraints 
-Our team aimed to create a new technology that would seamlessly connect the design files with various native codebases through a TypeScript design token framework. This would require a massive effort, especially for a small team like ours with a tight deadline. It was, then, paramount to validate our assumptions via research.
+Our team aimed to create a new technology that would seamlessly connect the design files (Figma, Sketch, Adobe XD) with various native codebases through a TypeScript design token framework. This would require a massive effort, especially for a small team like ours with a tight deadline. It was, then, paramount to validate our assumptions via research.
 
 This research effort sought to obtain both qualitative and quantitative data to prove or disprove our hypotheses. Due to the limited resources the company had to allocate to this research project, I worked on it mostly alone, planning, executing and presenting the findings to the rest of the team. 
 
@@ -66,7 +68,7 @@ All of the insights from the workshops were expressed and presented to the team 
 ### Converting proto-personas into personas through interviews with representative users
 Once we had put together our assumptions, it was time to test them. I set out to plan and execute ten remote interviews with representative users to learn about their actual needs and pain points when collaborating with other disciplines to create and maintain design systems. That knowledge would allow us to course correct, if necessary, or to find ways to better serve their real needs.
 
-To start, I crafted a one-page plan covering context definition, hypotheses, objectives, research questions, methodology, team, participants and timeline; I put together the brief and script for the interviews; crafted a screener to filter potential participants; selected and scheduled interviews using UserInterviews and set out to start talking to people. I facilitated all ten interviews, having co-workers sometimes join in and ask follow-up questions as well as help with note taking.
+To start, I crafted a one-page plan covering context definition, hypotheses, objectives, research questions, methodology, team, participants and timeline; I put together the brief and script for the interviews; crafted a screener to filter potential participants; selected and scheduled interviews using <a href="https://www.userinterviews.com/" target="_blank">User Interviews</a> and set out to start talking to people. I facilitated all ten interviews, having co-workers sometimes join in and ask follow-up questions as well as help with note taking.
 
 After the sessions concluded, I proceeded with the open-coding process to extract meaning and concepts from the answers the participants provided. Once I had broken down the collected data into codes, I used the KJ technique (or affinity diagram) to look for patterns and group them accordingly.
 
@@ -153,7 +155,7 @@ During this phase we uncovered, among other things:
 </figure>
 
 ### We proved the product provided value to our users, now it was time to prove if it provided enough value for our customers to make the purchase
-After the company launched the MVP for Diez, we saw the product was well received by teams, and interest was spiking. However, we still needed to find a way to monetize this product. Initially, the idea was for Diez to offer a Community Edition with AGPL license that was free and included some basic features, and an Enterprise Edition with extra features and a commercial license, that offered more freedom using the product. Our hypothesis was that companies would be interested in investing in our product to streamline their teams processes, reduce repetitive tasks, save time and therefore money.
+After the company launched the MVP for Diez, we saw the product was well received by teams, and interest was spiking. However, we still needed to find a way to monetize this product. Initially, the idea was for Diez to offer a Community Edition with <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank">AGPL license</a> that was free and included some basic features, and an Enterprise Edition with extra features and a commercial license, that offered more freedom using the product. Our hypothesis was that companies would be interested in investing in our product to streamline their teams processes, reduce repetitive tasks, save time and therefore money.
 
 To test this hypothesis, we showcased this offering on the product's website and added a form for interested parties to request more information about the Enterprise Edition. The same as before, the form included filtering questions to help us prioritize who to talk to. The company's CEO/founder and me started a semi-automated sales outreach effort to contact the interested parties and set up calls. These online meetings were planned to cover our research questions (so that we could keep gaining insights into the companies workflows, tooling and difficulties building and maintaining their design systems), as well as a live demo of Diez Enterprise Edition.
 
