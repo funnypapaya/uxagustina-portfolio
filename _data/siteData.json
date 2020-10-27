@@ -2,7 +2,7 @@
     "positions": [
         {
             "company": "Haiku",
-            "jobTitle": "UX Designer",
+            "jobTitle": "Senior UX Designer",
             "period": "Jul 2018 - Aug 2020",
             "periodDuration": "2 yrs 2 mos",
             "logo": "./images/logo-haiku.jpg",
@@ -10,7 +10,7 @@
         },
         {
             "company": "The UX Department",
-            "jobTitle": "UX Designer",
+            "jobTitle": "User Experience Designer",
             "period": "Nov 2013 - Jun 2018",
             "periodDuration": "4 yrs 8 mos",
             "logo": "./images/logo-tuxd.jpg",
@@ -46,7 +46,7 @@
     "caseStudies": [
         {
             "name": "Haiku Crow",
-            "description": "Product design for strategic pricing web app aimed towards marketing and sales teams, plus marketing website.",
+            "description": "Product design and marketing website for strategic pricing web app aimed towards marketing and sales teams.",
             "link": "/case-studies/crow",
             "image": "./images/cs-crow.jpg"
         },
