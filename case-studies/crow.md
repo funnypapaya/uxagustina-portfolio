@@ -160,7 +160,7 @@ After we achieved a certain level of understanding regarding the core of the ide
 
 <figure>
   <img src="/images/case-studies/crow/app-map.jpg" class="content-images" style="border: none;"/>
-  <figcaption style="color: var(--color-dark-grey);">Information taxonomy maps I created for the Crow app.</figcaption>
+  <figcaption style="color: var(--color-dark-grey);">Information taxonomy map I created for the Crow app.</figcaption>
 </figure>
 
 Having laid out the basic structure of screens, sections, and how they connect, we started focusing on the behavior and patterns of each screen. These are some of the user stories we needed to cover in the design:
@@ -177,7 +177,7 @@ Note: at this stage, I planned and created the baseline structure of the app, no
 
 <figure>
   <img src="/images/case-studies/crow/wireframes.jpg" class="content-images" style="border: none;"/>
-  <figcaption style="color: var(--color-dark-grey);">Wireframes for the dashboard of the Crow app (3 out of 28 wireframes I created for the entire app).</figcaption>
+  <figcaption style="color: var(--color-dark-grey);">Wireframe of the "Cohort list view" (dashboard) screen of the Crow app (1/28 wireframes I created for the entire app).</figcaption>
 </figure>
 
 #### With the structure and the style library in place, I proceeded to put together the high-fidelity mockups for the product
@@ -188,7 +188,15 @@ Along the way, new feature ideas came up. Each one was discussed, drafted, added
   <figcaption style="color: var(--color-dark-grey);">Mockup I created for the dashboard of the app.</figcaption>
 </figure>
 
-One of those added flows was the cohort creation wizard, including the smart pricing feature. This new flow gave the primary user (sales/marketing exec) more control over the cohort creation process, going from just picking countries and naming the cohort, to additionally defining a specific currency for this cohort, selecting the products that will be included or affected by this cohort, and modifying the pricing structure for each product and plan. At the same time, this could be done much more easily thanks to the in-depth automatic recommendations in smart pricing, which took into consideration data points such as the base plan pricing, the selected area's PPP, and annual/monthly rounding to get whole numbers.
+One of those added flows was the **cohort creation wizard**, including the **smart pricing feature**. 
+
+This new flow gave the primary user (sales/marketing exec) more control over the cohort creation process, going from just picking countries and naming the cohort, to additionally:
+
+- Defining a specific currency for this cohort
+- Selecting the products that will be included or affected by this cohort
+- Modifying the pricing structure for each product and plan
+
+At the same time, this could be done much more easily thanks to the in-depth automatic recommendations in smart pricing, which took into consideration data points such as the base plan pricing, the selected area's PPP, and annual/monthly rounding to get whole numbers.
 
 {{#> carousel }}
   <div class="swiper-slide carousel-content"><img src="/images/case-studies/crow/wizard1.jpg" class="content-images"/></div>
