@@ -180,7 +180,7 @@ Note: at this stage, I planned and created the baseline structure of the app, no
   <figcaption style="color: var(--color-dark-grey);">Wireframes for the dashboard of the Crow app (3 out of 28 wireframes I created for the entire app).</figcaption>
 </figure>
 
-#### With the structure and the style library in place, I proceeded to put together the high-res mockups for the product
+#### With the structure and the style library in place, I proceeded to put together the high-fidelity mockups for the product
 Along the way, new feature ideas came up. Each one was discussed, drafted, added to the application map with its corresponding nomenclature, and mocked up.
 
 <figure>

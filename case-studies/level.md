@@ -137,7 +137,7 @@ When the new style was settled, we created mockups for each section of the app a
 
 We also engaged a third-party contractor to create animations to illustrate the app’s behavior and interactions and to guide the development efforts.
 
-We delivered high-resolution mockups for each of the mobile application’s screens (iOS and Android) and the assets ready for implementation on each screen resolution.
+We delivered high-fidelity mockups for each of the mobile application’s screens (iOS and Android) and the assets ready for implementation at every screen resolution.
 
 {{#> carousel }}
   <div class="swiper-slide carousel-content"><img src="/images/case-studies/level/level-slide-1.png" /></div>

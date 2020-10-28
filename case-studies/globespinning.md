@@ -31,7 +31,7 @@ The founders of the app decided to work with The UX Department to create a mobil
 The team for this project consisted of the following members:
 - **Mariano García:** Creative Director at the agency and the leader of this project.
 - **Agustina Feijóo (myself):** I participated as project manager and UX designer. Will specify my contributions below.
-- **Lucila Díaz Spólita:** Visual designer. Was tasked with producing the high-res mockups for the app and website.
+- **Lucila Díaz Spólita:** Visual designer. Was tasked with producing the high fidelity mockups for the app and website.
 - **Andrea Gallo:** Front-end developer who implemented the marketing website.
 
 ### My role
@@ -111,7 +111,7 @@ The target market was women and men between the ages of 20 and 40 who were frequ
 ## Process
 
 ### Discovery phase
-The founders of Globespinning provided a very detailed set of materials to illustrate their vision of the product, including low resolution wireframes and notes.
+The founders of Globespinning provided a very detailed set of materials to illustrate their vision of the product, including low fidelity wireframes and notes.
 
 From these documents I started working on the information architecture for the app. This phase went through a series of revisions and corrections that improved the user flow and made the app as simple and clear as possible. We revised our proposed adjustments with the client and agreed on a set navigation that included the planned features.
 
@@ -127,7 +127,7 @@ Once the app map was approved, I started our interaction design work. I created 
 
 I designed around 80 screens, which were changed many times along the way. During very thorough client meetings, we discussed the different use cases of the app and cleansed it of all miscellaneous features to leave only the core features necessary for the MVP. Some screens were set aside, others were combined, and some were added.
 
-At the end of this process I delivered the wireframes (low resolution mockups) for all the key pages of the app and created a clickable prototype that was revised by the client and adjusted accordingly.
+At the end of this process I delivered the wireframes (low fidelity mockups) for all the key pages of the app and created a clickable prototype that was revised by the client and adjusted accordingly.
 
 <figure>
   <img src="/images/case-studies/globespinning/ixd-1.jpg" class="content-images" style="border: none;"/>
@@ -144,7 +144,7 @@ After several weeks of intense work we moved on to the visual design phase of th
 
 Once the look and feel was approved, Lucila worked on the design of the entire app. We decided to use color as a visual tool to set sections apart and make them easily distinguishable by the users. We also used color coding for tagging and filtering the postcard system.
 
-We delivered high resolution mockups for each of the mobile application’s screens, and all of the exported assets, ready for implementation at every screen resolution.
+We delivered high fidelity mockups for each of the mobile application’s screens, and all of the exported assets, ready for implementation at every screen resolution.
 
 {{#> carousel }}
   <div class="swiper-slide carousel-content">
