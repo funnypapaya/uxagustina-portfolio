@@ -131,13 +131,10 @@ Once the basic design elements were defined, the visual design team created a se
 #### A new challenge
 After the first design options were created, VSP had to change the product’s brand and its target audience: we were no longer aiming towards young millennials, but older adults with a steady income. At this point we had to double our efforts to create a new design based on the updated requirements while keeping up with the project’s timeline and VSP’s expectations.
 
-When the new style was settled, we created mockups for each section of the app and I facilitated the second round of remote moderated usability testing sessions to validate the design. During a series of two-week sprints we iterated on the mockups to include the insights we gathered from the testing sessions. 
+When the new style was settled, we created mockups for each section of the app, and we also engaged a third-party contractor to create animations to illustrate the app’s behavior and interactions and to guide the development efforts.
 
-**In total, I moderated 60 remote user tests.**
+We delivered high-fidelity mockups for each of the mobile application’s screens (iOS and Android) and the assets ready for implementation at every screen resolution. 
 
-We also engaged a third-party contractor to create animations to illustrate the app’s behavior and interactions and to guide the development efforts.
-
-We delivered high-fidelity mockups for each of the mobile application’s screens (iOS and Android) and the assets ready for implementation at every screen resolution.
 
 {{#> carousel }}
   <div class="swiper-slide carousel-content"><img src="/images/case-studies/level/level-slide-1.png" /></div>
@@ -146,6 +143,16 @@ We delivered high-fidelity mockups for each of the mobile application’s screen
   <div class="swiper-slide carousel-content"><img src="/images/case-studies/level/level-slide-4.png" /></div>
   <div class="swiper-slide carousel-content"><img src="/images/case-studies/level/level-slide-5.png" /></div>
 {{/carousel}}
+
+### Usability testing
+
+At various times during the project, we conducted moderated usability testing sessions to put our assumptions regarding the functionality and design of the app to the test. 
+
+I estimated and planned the entire process and I moderated three rounds of remote usability testing sessions (a total of 30 sessions). I also participated remotely in the in-person testing round that was conducted in San Francisco and assisted the on-site moderator with note-taking.
+
+The on-site session was used to validate the wireframes I created. After the resulting insights were incorporated into the design, we subdivided the app into sections and worked on these sections on two-week sprints. After each section was completed, I conducted a round of remote moderated usability testing. Each round of testing was done with ten participants. All incoming insights were incorporated into the design before moving forward onto the next section.
+
+**During the project, we conducted a total of 40 moderated usability testing sessions.**
 
 ## Results
 According to a pilot test done by the University of Southern California's Center for Body Computing, the original hypothesis turned out to be mostly true. Of the 284 employees that signed up for the Level trial, 221 ended up sticking with the platform for the full 15-week duration of the study (nine people never participated at all, while 54 dropped out mid-way through). According to the research, subjects much preferred having the activity tracker embedded in their prescriptive eyewear, rather than having to put on a separate wearable. Other factors proved helpful as well, like motivational prompts and encouragement from friends within the app.
