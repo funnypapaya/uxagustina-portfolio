@@ -45,26 +45,26 @@
     ],
     "caseStudies": [
         {
-            "name": "Haiku Crow",
-            "description": "Product design and marketing website for strategic pricing web app aimed towards marketing and sales teams.",
+            "name": "Haiku Crow · Pricing strategy app",
+            "description": "This project showcases my UX research, product design (IxD - IA), and UI design skills, from ideation to implementation.",
             "link": "/case-studies/crow",
             "image": "./images/cs-crow.jpg"
         },
         {
-            "name": "Diez",
-            "description": "User research for product idea validation. Diez is a free & open-source developer toolkit for expressing visual styles.",
+            "name": "Diez · The design token framework",
+            "description": "This project best represents my UX research skills. It covers workshops, interviews, and quantitative data analysis.",
             "link": "/case-studies/diez",
             "image": "./images/cs-diez.jpg"
         },
         {
-            "name": "Level",
-            "description": "UX design and usability testing for award-winning mobile app, created to be paired with health-tracking optical frames.",
+            "name": "Level · Award-winning mobile app",
+            "description": "This project puts my leadership abilities, interaction design, and moderated usability testing skills on display.",
             "link": "/case-studies/level",
             "image": "./images/cs-level.jpg"
         },
         {
-            "name": "Globespinning",
-            "description": "UX design for mobile app that lets users create and share travel itineraries from pictures taken with their phones.",
+            "name": "Globespinning · Travel mobile app",
+            "description": "This was one of my first projects. It showcases my eagerness to learn and my ability to successfully work in multi-disciplinary teams.",
             "link": "/case-studies/globespinning/",
             "image": "./images/cs-globespinning.jpg"
         }    
